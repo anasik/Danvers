@@ -12,9 +12,9 @@
     <link rel="stylesheet" type="text/css" href=""/>
 </head>
 <body>
-<?php include('../includes/header.php');?>
-<?php include('../includes/nav.php');?>
-<?php include('../includes/sidebar.php');?>
-<?php include('../includes/footer.php');?>
+<?php include('header.php');?>
+<?php include('nav.php');?>
+<?php include('sidebar.php');?>
+<?php include('footer.php');?>
 </body>
 </html>
