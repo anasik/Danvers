@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title><?php echo $SiteHeader;?></title>
     <link rel="stylesheet" type="text/css" href=""/>
 </head>
 <body>
