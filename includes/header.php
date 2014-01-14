@@ -5,7 +5,7 @@
  * Date: 1/14/14
  * Time: 9:23 PM
  */
-include('variables.php')
+include('includes/variables.php')
 ?>
 <header>
     <h1><?php echo $SiteHeader; ?></h1>
