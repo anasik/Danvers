@@ -26,7 +26,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="31" selection-start="117" selection-end="117" vertical-scroll-proportion="0.168" vertical-offset="0" max-vertical-offset="625">
+            <state line="8" column="7" selection-start="125" selection-end="125" vertical-scroll-proportion="0.192" vertical-offset="0" max-vertical-offset="625">
               <folding>
                 <element signature="e#6#85#0" expanded="true" />
               </folding>
@@ -106,9 +106,9 @@
       <list>
         <option value="$PROJECT_DIR$/includes/footer.php" />
         <option value="$PROJECT_DIR$/includes/header.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/includes/variables.php" />
         <option value="$PROJECT_DIR$/includes/page.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -339,7 +339,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="117" selection-end="117" vertical-scroll-proportion="0.168" vertical-offset="0" max-vertical-offset="625">
+        <state line="8" column="7" selection-start="125" selection-end="125" vertical-scroll-proportion="0.192" vertical-offset="0" max-vertical-offset="625">
           <folding>
             <element signature="e#6#85#0" expanded="true" />
           </folding>
