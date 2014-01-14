@@ -26,19 +26,10 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="159" selection-end="159" vertical-scroll-proportion="0.216" vertical-offset="0" max-vertical-offset="625">
+            <state line="9" column="18" selection-start="149" selection-end="149" vertical-scroll-proportion="0.216" vertical-offset="0" max-vertical-offset="625">
               <folding>
                 <element signature="e#6#85#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="asd.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asd.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="72" selection-end="72" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="225">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -368,16 +359,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/asd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="72" selection-end="72" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="159" selection-end="159" vertical-scroll-proportion="0.216" vertical-offset="0" max-vertical-offset="625">
+        <state line="9" column="18" selection-start="149" selection-end="149" vertical-scroll-proportion="0.216" vertical-offset="0" max-vertical-offset="625">
           <folding>
             <element signature="e#6#85#0" expanded="true" />
           </folding>
