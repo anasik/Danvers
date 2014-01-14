@@ -5,6 +5,7 @@
  * Date: 1/14/14
  * Time: 9:25 PM
  */ ?>
+<!DOCTYPE html>
 <html>
 <head>
     <title></title>
