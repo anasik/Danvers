@@ -10,3 +10,4 @@ $SiteHeader = "Just another website";
 $SHeaderSubtitle = "a website like countless others"
 $pageHeader = "A page on this website";
 $footer = "footer content | Copyright example.com 2013";
+?>
