@@ -26,8 +26,10 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="114" selection-end="114" vertical-scroll-proportion="0.168" vertical-offset="0" max-vertical-offset="625">
-              <folding />
+            <state line="7" column="31" selection-start="117" selection-end="117" vertical-scroll-proportion="0.168" vertical-offset="0" max-vertical-offset="625">
+              <folding>
+                <element signature="e#6#85#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -337,8 +339,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="114" selection-end="114" vertical-scroll-proportion="0.168" vertical-offset="0" max-vertical-offset="625">
-          <folding />
+        <state line="7" column="31" selection-start="117" selection-end="117" vertical-scroll-proportion="0.168" vertical-offset="0" max-vertical-offset="625">
+          <folding>
+            <element signature="e#6#85#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
