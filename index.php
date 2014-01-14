@@ -7,4 +7,4 @@
  */
 include('includes/page.php') ?>
 <h1> HA</h1>
-<?php echo $footer?>
+<?php $faoter= "asd" ;echo $faoter;?>
