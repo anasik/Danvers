@@ -35,7 +35,7 @@
       <file leaf-file-name="page.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="32" selection-start="237" selection-end="237" vertical-scroll-proportion="0.144" vertical-offset="0" max-vertical-offset="625">
+            <state line="25" column="7" selection-start="590" selection-end="590" vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="625">
               <folding>
                 <element signature="e#47#126#0" expanded="false" />
               </folding>
@@ -46,19 +46,8 @@
       <file leaf-file-name="getPageContent.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="15" column="1" selection-start="371" selection-end="371" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="330">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parse.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/parse.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="1" selection-start="725" selection-end="725" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="510">
-              <folding>
-                <element signature="e#6#85#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -80,9 +69,9 @@
         <option value="$PROJECT_DIR$/include.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/scripts/junk.php" />
-        <option value="$PROJECT_DIR$/scripts/getPageContent.php" />
         <option value="$PROJECT_DIR$/scripts/parse.php" />
         <option value="$PROJECT_DIR$/includes/page.php" />
+        <option value="$PROJECT_DIR$/scripts/getPageContent.php" />
       </list>
     </option>
   </component>
@@ -152,6 +141,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TryCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TryCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -165,6 +168,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/includes" />
     </key>
@@ -363,7 +367,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include.html">
+    <entry file="file://$PROJECT_DIR$/pages/include.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="26" selection-start="205" selection-end="205" vertical-scroll-proportion="0.17412935" vertical-offset="0" max-vertical-offset="603">
           <folding />
@@ -393,7 +397,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/parse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="1" selection-start="725" selection-end="725" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="585">
+        <state line="27" column="1" selection-start="725" selection-end="725" vertical-scroll-proportion="0.648" vertical-offset="0" max-vertical-offset="625">
           <folding>
             <element signature="e#6#85#0" expanded="true" />
           </folding>
@@ -402,14 +406,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330">
+        <state line="15" column="1" selection-start="371" selection-end="371" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="237" selection-end="237" vertical-scroll-proportion="0.144" vertical-offset="0" max-vertical-offset="625">
+        <state line="25" column="7" selection-start="590" selection-end="590" vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="625">
           <folding>
             <element signature="e#47#126#0" expanded="false" />
           </folding>
