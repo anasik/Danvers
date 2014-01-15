@@ -26,9 +26,4 @@ function getPageName() {
     return $page;
 
 }
-
-
-echo "GetPagesURL ".GetPagesURL();
-echo "function getPageNam".getPageName()
-
 ?>

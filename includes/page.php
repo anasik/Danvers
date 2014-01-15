@@ -1,4 +1,4 @@
-<?php
+<?php include('../scripts/getPageContent.php')
 /**
  * Created by PhpStorm.
  * User: anas
@@ -14,6 +14,13 @@
 <body>
 <?php include('header.php');?>
 <?php include('nav.php');?>
+----------------------------------------------
+<?php
+    echo "<h3>".getPageName()."</h3><br>";
+    echo getPageContent(getPageName());
+?>
+-----------------------------------------------
+
 <?php include('sidebar.php');?>
 <?php include('footer.php');?>
 </body>
