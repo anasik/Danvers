@@ -21,9 +21,12 @@ function getPageName() {
     /*substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
     return*/
     $url = GetPagesURL();
-    $page = parse_url($url, PHP_URL_QUERY);
+    $query = parse_url($url, PHP_URL_QUERY);
+    $page = substr($query, strpos($query,"page="+1 ));
+    return $page
 
 }
+
 
 echo "GetPagesURL ".GetPagesURL();
 echo "function getPageNam".getPageName()

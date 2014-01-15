@@ -32,31 +32,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="junk.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/junk.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="parse.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/parse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.17412935" vertical-offset="0" max-vertical-offset="603">
+            <state line="33" column="2" selection-start="806" selection-end="806" vertical-scroll-proportion="0.792" vertical-offset="0" max-vertical-offset="625">
               <folding>
                 <element signature="e#6#85#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="include.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="26" selection-start="205" selection-end="205" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -73,43 +55,7 @@
       <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="52" selection-start="216" selection-end="216" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="9" selection-start="95" selection-end="95" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="195">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="141" selection-end="141" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/sidebar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/nav.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="86" selection-end="86" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+            <state line="14" column="30" selection-start="262" selection-end="262" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -127,12 +73,12 @@
       <list>
         <option value="$PROJECT_DIR$/asd.html" />
         <option value="$PROJECT_DIR$/includes/variables.php" />
-        <option value="$PROJECT_DIR$/includes/page.php" />
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/includes/footer.php" />
         <option value="$PROJECT_DIR$/include.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/scripts/junk.php" />
+        <option value="$PROJECT_DIR$/includes/page.php" />
         <option value="$PROJECT_DIR$/scripts/parse.php" />
       </list>
     </option>
@@ -419,16 +365,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
+    <entry file="file://$PROJECT_DIR$/scripts/junk.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="9" selection-start="95" selection-end="95" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="195">
+        <state line="15" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.37313432" vertical-offset="0" max-vertical-offset="603">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/page.php">
+    <entry file="file://$PROJECT_DIR$/include.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="52" selection-start="216" selection-end="216" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="300">
+        <state line="7" column="26" selection-start="205" selection-end="205" vertical-scroll-proportion="0.17412935" vertical-offset="0" max-vertical-offset="603">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="9" selection-start="95" selection-end="95" vertical-scroll-proportion="0.048" vertical-offset="0" max-vertical-offset="625">
           <folding />
         </state>
       </provider>
@@ -440,9 +393,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include.html">
+    <entry file="file://$PROJECT_DIR$/includes/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="205" selection-end="205" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
+        <state line="14" column="30" selection-start="262" selection-end="262" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
@@ -454,16 +407,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/junk.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/parse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.17412935" vertical-offset="0" max-vertical-offset="603">
+        <state line="33" column="2" selection-start="806" selection-end="806" vertical-scroll-proportion="0.792" vertical-offset="0" max-vertical-offset="625">
           <folding>
             <element signature="e#6#85#0" expanded="true" />
           </folding>
