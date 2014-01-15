@@ -16,4 +16,5 @@ function getPageContent($pagename){
     }
 }
 echo getPageContent(getPageName());
+echo $address;
 ?>

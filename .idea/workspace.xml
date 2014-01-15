@@ -35,7 +35,7 @@
       <file leaf-file-name="getPageContent.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="400" selection-end="400" vertical-scroll-proportion="0.384" vertical-offset="0" max-vertical-offset="625">
+            <state line="18" column="14" selection-start="451" selection-end="451" vertical-scroll-proportion="0.432" vertical-offset="0" max-vertical-offset="625">
               <folding />
             </state>
           </provider>
@@ -414,7 +414,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="400" selection-end="400" vertical-scroll-proportion="0.384" vertical-offset="0" max-vertical-offset="625">
+        <state line="18" column="14" selection-start="451" selection-end="451" vertical-scroll-proportion="0.432" vertical-offset="0" max-vertical-offset="625">
           <folding />
         </state>
       </provider>
