@@ -6,5 +6,5 @@
  * Time: 9:24 PM
  */ ?>
 <footer>
-    <span><?php echo $footer</span>
+    <span><?php echo $footer;?></span>
 </footer>
