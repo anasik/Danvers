@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+            <state line="8" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.192" vertical-offset="0" max-vertical-offset="625">
               <folding />
             </state>
           </provider>
@@ -59,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="9" selection-start="146" selection-end="146" vertical-scroll-proportion="0.096" vertical-offset="0" max-vertical-offset="625">
+            <state line="9" column="4" selection-start="141" selection-end="141" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
@@ -98,10 +98,10 @@
       <list>
         <option value="$PROJECT_DIR$/asd.html" />
         <option value="$PROJECT_DIR$/includes/variables.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/includes/page.php" />
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/includes/footer.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -380,13 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="52" selection-start="216" selection-end="216" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="300">
@@ -396,7 +389,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="9" selection-start="146" selection-end="146" vertical-scroll-proportion="0.096" vertical-offset="0" max-vertical-offset="625">
+        <state line="9" column="4" selection-start="141" selection-end="141" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.192" vertical-offset="0" max-vertical-offset="625">
           <folding />
         </state>
       </provider>
