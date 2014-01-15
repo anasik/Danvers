@@ -8,7 +8,6 @@
 include("parse.php");
 function getPageContent($pagename){
     $address = "../pages/".$pagename;
-    echo $address;
     if(file_exists($address)){
         return '<object id="board" type="text/html" data="'.$pagename.'.html"></object>';
     }
