@@ -35,10 +35,8 @@
       <file leaf-file-name="page.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="7" selection-start="590" selection-end="590" vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="625">
-              <folding>
-                <element signature="e#47#126#0" expanded="false" />
-              </folding>
+            <state line="14" column="39" selection-start="413" selection-end="413" vertical-scroll-proportion="0.336" vertical-offset="0" max-vertical-offset="625">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,8 +68,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/scripts/junk.php" />
         <option value="$PROJECT_DIR$/scripts/parse.php" />
-        <option value="$PROJECT_DIR$/includes/page.php" />
         <option value="$PROJECT_DIR$/scripts/getPageContent.php" />
+        <option value="$PROJECT_DIR$/includes/page.php" />
       </list>
     </option>
   </component>
@@ -305,9 +303,7 @@
     <entry file="file://$PROJECT_DIR$/includes/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="15" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="375">
-          <folding>
-            <element signature="e#47#126#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -413,10 +409,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="7" selection-start="590" selection-end="590" vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="625">
-          <folding>
-            <element signature="e#47#126#0" expanded="false" />
-          </folding>
+        <state line="14" column="39" selection-start="413" selection-end="413" vertical-scroll-proportion="0.336" vertical-offset="0" max-vertical-offset="625">
+          <folding />
         </state>
       </provider>
     </entry>

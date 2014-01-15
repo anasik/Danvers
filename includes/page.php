@@ -1,10 +1,5 @@
-<?php include('../scripts/getPageContent.php')
-/**
- * Created by PhpStorm.
- * User: anas
- * Date: 1/14/14
- * Time: 9:25 PM
- */ ?>
+<?php include('../scripts/getPageContent.php');
+include('variables.php');?>
 <!DOCTYPE html>
 <html>
 <head>
