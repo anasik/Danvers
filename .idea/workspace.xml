@@ -23,28 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="39" selection-start="413" selection-end="413" vertical-scroll-proportion="0.336" vertical-offset="0" max-vertical-offset="625">
+            <state line="21" column="7" selection-start="544" selection-end="544" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getPageContent.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="getPageContent.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="1" selection-start="371" selection-end="371" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="330">
+            <state line="17" column="5" selection-start="403" selection-end="403" vertical-scroll-proportion="0.408" vertical-offset="0" max-vertical-offset="625">
               <folding />
             </state>
           </provider>
@@ -68,8 +59,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/scripts/junk.php" />
         <option value="$PROJECT_DIR$/scripts/parse.php" />
-        <option value="$PROJECT_DIR$/scripts/getPageContent.php" />
         <option value="$PROJECT_DIR$/includes/page.php" />
+        <option value="$PROJECT_DIR$/scripts/getPageContent.php" />
       </list>
     </option>
   </component>
@@ -150,6 +141,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TryCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TryCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,23 +375,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="9" selection-start="95" selection-end="95" vertical-scroll-proportion="0.048" vertical-offset="0" max-vertical-offset="625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/variables.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="1" selection-start="273" selection-end="273" vertical-scroll-proportion="0.264" vertical-offset="0" max-vertical-offset="625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
@@ -400,16 +391,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="371" selection-end="371" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="330">
+        <state line="9" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.216" vertical-offset="0" max-vertical-offset="625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="9" selection-start="95" selection-end="95" vertical-scroll-proportion="0.048" vertical-offset="0" max-vertical-offset="625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="413" selection-end="413" vertical-scroll-proportion="0.336" vertical-offset="0" max-vertical-offset="625">
+        <state line="21" column="7" selection-start="544" selection-end="544" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="5" selection-start="403" selection-end="403" vertical-scroll-proportion="0.408" vertical-offset="0" max-vertical-offset="625">
           <folding />
         </state>
       </provider>
