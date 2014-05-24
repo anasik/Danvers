@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/getPageContent.php" afterPath="$PROJECT_DIR$/scripts/getPageContent.php" />
-    </list>
+    <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so" />
     <ignored path="TryCMS.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +26,7 @@
       <file leaf-file-name="getPageContent.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="2" selection-start="402" selection-end="403" vertical-scroll-proportion="0.62015504" vertical-offset="0" max-vertical-offset="387">
+            <state line="19" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.7364341" vertical-offset="0" max-vertical-offset="387">
               <folding />
             </state>
           </provider>
@@ -461,7 +459,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="2" selection-start="402" selection-end="403" vertical-scroll-proportion="0.62015504" vertical-offset="0" max-vertical-offset="387">
+        <state line="19" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.7364341" vertical-offset="0" max-vertical-offset="387">
           <folding />
         </state>
       </provider>
