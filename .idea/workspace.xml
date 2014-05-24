@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/page.php" afterPath="$PROJECT_DIR$/includes/page.php" />
     </list>
     <ignored path="TryCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,10 +38,8 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.22425249" vertical-offset="0" max-vertical-offset="602">
-              <folding>
-                <element signature="e#6#85#0" expanded="true" />
-              </folding>
+            <state line="7" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.1744186" vertical-offset="0" max-vertical-offset="602">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,26 +65,19 @@
       <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="42" selection-start="0" selection-end="506" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="405">
+            <state line="11" column="51" selection-start="328" selection-end="328" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variables.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/variables.php">
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/sidebar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
+              <folding>
+                <marker date="1389808115210" expanded="true" signature="121:216" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -399,13 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/include.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="649">
@@ -416,20 +401,6 @@
     <entry file="file://$PROJECT_DIR$/scripts/junk.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="18" selection-start="200" selection-end="200" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/variables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411">
           <folding />
         </state>
       </provider>
@@ -455,19 +426,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/variables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding>
+            <marker date="1389808115210" expanded="true" signature="121:216" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="42" selection-start="0" selection-end="506" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="405">
+        <state line="11" column="51" selection-start="328" selection-end="328" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.22425249" vertical-offset="0" max-vertical-offset="602">
-          <folding>
-            <element signature="e#6#85#0" expanded="true" />
-          </folding>
+        <state line="7" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.1744186" vertical-offset="0" max-vertical-offset="602">
+          <folding />
         </state>
       </provider>
     </entry>
