@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/parse.php" afterPath="$PROJECT_DIR$/scripts/parse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/getPageContent.php" afterPath="$PROJECT_DIR$/scripts/getPageContent.php" />
     </list>
     <ignored path="TryCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="getPageContent.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="getPageContent.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="16" selection-start="160" selection-end="160" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="375">
+            <state line="9" column="16" selection-start="160" selection-end="160" vertical-scroll-proportion="0.22425249" vertical-offset="0" max-vertical-offset="602">
               <folding />
             </state>
           </provider>
@@ -37,16 +37,16 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="24" selection-start="513" selection-end="513" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="390">
+            <state line="9" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parse.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="parse.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/parse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="44" selection-start="649" selection-end="649" vertical-scroll-proportion="0.44850498" vertical-offset="0" max-vertical-offset="602">
+            <state line="23" column="44" selection-start="649" selection-end="649" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/scripts/junk.php" />
         <option value="$PROJECT_DIR$/includes/page.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/scripts/getPageContent.php" />
         <option value="$PROJECT_DIR$/scripts/parse.php" />
+        <option value="$PROJECT_DIR$/scripts/getPageContent.php" />
       </list>
     </option>
   </component>
@@ -450,23 +450,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/parse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="44" selection-start="649" selection-end="649" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="513" selection-end="513" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="390">
+        <state line="9" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="160" selection-end="160" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/parse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="44" selection-start="649" selection-end="649" vertical-scroll-proportion="0.44850498" vertical-offset="0" max-vertical-offset="602">
+        <state line="9" column="16" selection-start="160" selection-end="160" vertical-scroll-proportion="0.22425249" vertical-offset="0" max-vertical-offset="602">
           <folding />
         </state>
       </provider>
