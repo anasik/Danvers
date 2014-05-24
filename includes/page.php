@@ -9,13 +9,12 @@ include('variables.php');?>
 <body>
 <?php include('header.php');?>
 <?php include('nav.php');?>
-----------------------------------------------
+THE PAGE SHOULD FOLLOW
 <?php
     echo "<h3>".getPageName()."</h3><br>";
     echo getPageContent(getPageName());
 ?>
------------------------------------------------
-
+THE PAGE SHOULD END
 <?php include('sidebar.php');?>
 <?php include('footer.php');?>
 </body>
