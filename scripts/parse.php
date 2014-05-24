@@ -22,7 +22,7 @@ function getPageName() {
     return*/
     $url = GetPagesURL();
     $query = parse_url($url, PHP_URL_QUERY);
-    $page = substr($query, strpos($query,"/page=") +6);
+    $page = substr($query, strpos($query,"/?page=") +6);
     return $page;
 
 }
