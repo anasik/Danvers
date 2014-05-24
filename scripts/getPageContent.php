@@ -15,5 +15,5 @@ function getPageContent($pagename){
         return "Error 404:<br>The Page: {$pagename}, was not found.<br>";
     };
 };
-echo getPageContent(getPageName());
+?>
 
