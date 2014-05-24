@@ -20,9 +20,9 @@ function GetPagesURL() {
 function getPageName() {
     /*substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
     return*/
+    $url = GetPagesURL();
+    $query = parse_url($url, PHP_URL_QUERY);
     if (strpos($query,'page=') !== false) {
-        $url = GetPagesURL();
-        $query = parse_url($url, PHP_URL_QUERY);
         $page = substr($query, strpos($query,"page=") +5);
         return $page;
     }
