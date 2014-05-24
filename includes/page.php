@@ -11,7 +11,7 @@ include('variables.php');?>
 <?php include('nav.php');?>
 THE PAGE SHOULD FOLLOW
 <?php
-    //echo "<h3>".getPageName()."</h3><br>";
+    echo "<h3>".getPageName()."</h3><br>";
     //echo getPageContent(getPageName());
 echo "ASdsd"
 ?>
