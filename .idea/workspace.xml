@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/includes/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.php" afterPath="$PROJECT_DIR$/includes/header.php" />
     </list>
     <ignored path="TryCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,19 +71,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="23" selection-start="211" selection-end="211" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="195">
+            <state line="11" column="60" selection-start="248" selection-end="248" vertical-scroll-proportion="0.14900662" vertical-offset="0" max-vertical-offset="604">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap-theme.min.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bootstrap-theme.min.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/bootstrap/css/bootstrap-theme.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="13207" selection-end="13207" vertical-scroll-proportion="0.19512194" vertical-offset="0" max-vertical-offset="615">
+            <state line="16" column="0" selection-start="13364" selection-end="13364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -111,8 +112,8 @@
         <option value="$PROJECT_DIR$/includes/variables.php" />
         <option value="$PROJECT_DIR$/includes/page.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/includes/bootstrap/css/bootstrap-theme.min.css" />
+        <option value="$PROJECT_DIR$/includes/header.php" />
       </list>
     </option>
   </component>
@@ -496,16 +497,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/parse.php">
+    <entry file="file://$PROJECT_DIR$/includes/nav.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="8" selection-start="783" selection-end="783" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="555">
+        <state line="22" column="17" selection-start="832" selection-end="832" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/variables.php">
+    <entry file="file://$PROJECT_DIR$/includes/bootstrap/css/bootstrap-theme.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="283" selection-end="283" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="270">
+        <state line="16" column="0" selection-start="13364" selection-end="13364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
@@ -517,9 +518,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/nav.php">
+    <entry file="file://$PROJECT_DIR$/includes/variables.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="17" selection-start="832" selection-end="832" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
+        <state line="11" column="11" selection-start="283" selection-end="283" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/parse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="8" selection-start="783" selection-end="783" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
@@ -533,14 +541,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="211" selection-end="211" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/bootstrap/css/bootstrap-theme.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="13207" selection-end="13207" vertical-scroll-proportion="0.19512194" vertical-offset="0" max-vertical-offset="615">
+        <state line="11" column="60" selection-start="248" selection-end="248" vertical-scroll-proportion="0.14900662" vertical-offset="0" max-vertical-offset="604">
           <folding />
         </state>
       </provider>
