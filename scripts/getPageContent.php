@@ -6,8 +6,8 @@
  * Time: 9:40 PM
  */
 include("parse.php");
-function getPageContent(strtolower($pagename)){
-    $address = "pages/{$pagename}.html";
+function getPageContent($pagename){
+    $address = strtolower("pages/{$pagename}.html");
     if(file_exists($address)){
         return '<div id="board">'.$addressContents.'</div><br>';
     }
