@@ -8,8 +8,9 @@
 include("parse.php");
 function getPageContent($pagename){
     $address = "pages/{$pagename}.html";
+    $addressContents = file_get_contents($address);
     if(file_exists($address)){
-        return '<object id="board" type="text/html" data='.$address.'></object><br>';
+        return '<div id="board">'.$addressContents.'</div><br>';
     }
         else {
         return "Error 404:<br>The Page: {$pagename}, was not found.<br>";
