@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/getPageContent.php" afterPath="$PROJECT_DIR$/scripts/getPageContent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/nav.php" afterPath="$PROJECT_DIR$/includes/nav.php" />
     </list>
     <ignored path="TryCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,46 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="getPageContent.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="getPageContent.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="50" selection-start="318" selection-end="318" vertical-scroll-proportion="0.29801324" vertical-offset="0" max-vertical-offset="604">
+            <state line="12" column="50" selection-start="318" selection-end="318" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="nav.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/nav.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="72" selection-start="741" selection-end="741" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parse.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/parse.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="44" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="600">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="variables.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/variables.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="junk.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/junk.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="18" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="315">
+            <state line="22" column="47" selection-start="887" selection-end="887" vertical-scroll-proportion="0.54635763" vertical-offset="0" max-vertical-offset="604">
               <folding />
             </state>
           </provider>
@@ -74,19 +46,8 @@
       <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="14" selection-start="0" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="390">
+            <state line="18" column="14" selection-start="0" selection-end="551" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="390">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <folding>
-                <marker date="1389808115210" expanded="true" signature="121:216" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -114,6 +75,7 @@
         <option value="$PROJECT_DIR$/scripts/parse.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/scripts/getPageContent.php" />
+        <option value="$PROJECT_DIR$/includes/nav.php" />
       </list>
     </option>
   </component>
@@ -168,6 +130,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="QuickSites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TryCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QuickSites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,7 +366,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <folding>
-            <marker date="1389808115210" expanded="true" signature="121:216" placeholder="..." />
+            <marker date="1389808115210" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -400,11 +376,6 @@
         <state line="20" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="390">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/include.html">
@@ -433,7 +404,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
           <folding>
-            <marker date="1389808115210" expanded="true" signature="121:216" placeholder="..." />
+            <marker date="1389808115210" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -441,13 +412,6 @@
     <entry file="file://$PROJECT_DIR$/includes/variables.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="14" selection-start="0" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
@@ -468,7 +432,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="50" selection-start="318" selection-end="318" vertical-scroll-proportion="0.29801324" vertical-offset="0" max-vertical-offset="604">
+        <state line="12" column="50" selection-start="318" selection-end="318" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="14" selection-start="0" selection-end="551" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="47" selection-start="887" selection-end="887" vertical-scroll-proportion="0.54635763" vertical-offset="0" max-vertical-offset="604">
           <folding />
         </state>
       </provider>
