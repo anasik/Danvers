@@ -25,7 +25,7 @@ function getPageName() {
     if (strpos($query,'page=') !== false) {
         $page = substr($query, strpos($query,"page=") +5);
         return $page;
-    /*} else if(strpos($query,'page=') + 5  == false)) {
+    } /*else if(strpos($query,'page=') + 5  == false)) {
         return "home";
     }*/
     else {

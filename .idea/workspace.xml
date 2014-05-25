@@ -38,7 +38,7 @@
       <file leaf-file-name="parse.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/parse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="7" selection-start="862" selection-end="862" vertical-scroll-proportion="0.5960265" vertical-offset="0" max-vertical-offset="604">
+            <state line="27" column="8" selection-start="783" selection-end="783" vertical-scroll-proportion="0.54635763" vertical-offset="0" max-vertical-offset="604">
               <folding />
             </state>
           </provider>
@@ -461,7 +461,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/parse.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="7" selection-start="862" selection-end="862" vertical-scroll-proportion="0.5960265" vertical-offset="0" max-vertical-offset="604">
+        <state line="27" column="8" selection-start="783" selection-end="783" vertical-scroll-proportion="0.54635763" vertical-offset="0" max-vertical-offset="604">
           <folding />
         </state>
       </provider>
