@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/getPageContent.php" afterPath="$PROJECT_DIR$/scripts/getPageContent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/junk.php" afterPath="$PROJECT_DIR$/scripts/junk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/variables.php" afterPath="$PROJECT_DIR$/includes/variables.php" />
     </list>
     <ignored path="TryCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +28,7 @@
       <file leaf-file-name="getPageContent.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="2" selection-start="389" selection-end="389" vertical-scroll-proportion="0.397351" vertical-offset="0" max-vertical-offset="604">
+            <state line="11" column="61" selection-start="289" selection-end="289" vertical-scroll-proportion="0.27317882" vertical-offset="0" max-vertical-offset="604">
               <folding />
             </state>
           </provider>
@@ -76,9 +74,9 @@
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/includes/bootstrap/css/bootstrap-theme.min.css" />
-        <option value="$PROJECT_DIR$/scripts/getPageContent.php" />
         <option value="$PROJECT_DIR$/scripts/junk.php" />
         <option value="$PROJECT_DIR$/includes/variables.php" />
+        <option value="$PROJECT_DIR$/scripts/getPageContent.php" />
       </list>
     </option>
   </component>
@@ -618,7 +616,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="2" selection-start="389" selection-end="389" vertical-scroll-proportion="0.397351" vertical-offset="0" max-vertical-offset="604">
+        <state line="11" column="61" selection-start="289" selection-end="289" vertical-scroll-proportion="0.27317882" vertical-offset="0" max-vertical-offset="604">
           <folding />
         </state>
       </provider>
