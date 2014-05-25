@@ -5,6 +5,13 @@ include('includes/variables.php');?>
 <head>
     <title><?php echo $SiteTitle;?></title>
     <link rel="stylesheet" type="text/css" href=""/>
+    <!---Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="includes/bootstrap/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="includes/bootstrap/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="includes/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 <?php include('includes/header.php');?>

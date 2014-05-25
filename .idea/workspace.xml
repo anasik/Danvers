@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so" />
+    <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    </list>
     <ignored path="TryCMS.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="getPageContent.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="getPageContent.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="0.4718543" vertical-offset="0" max-vertical-offset="604">
+            <state line="19" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="390">
+            <state line="13" column="36" selection-start="553" selection-end="553" vertical-scroll-proportion="0.3228477" vertical-offset="0" max-vertical-offset="604">
               <folding />
             </state>
           </provider>
@@ -108,9 +110,9 @@
         <option value="$PROJECT_DIR$/include.html" />
         <option value="$PROJECT_DIR$/scripts/junk.php" />
         <option value="$PROJECT_DIR$/includes/page.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/scripts/parse.php" />
         <option value="$PROJECT_DIR$/scripts/getPageContent.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -156,6 +158,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="TryCMS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TryCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QuickSites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -446,16 +458,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="390">
+        <state line="19" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="0.4718543" vertical-offset="0" max-vertical-offset="604">
+        <state line="13" column="36" selection-start="553" selection-end="553" vertical-scroll-proportion="0.3228477" vertical-offset="0" max-vertical-offset="604">
           <folding />
         </state>
       </provider>
