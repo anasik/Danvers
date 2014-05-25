@@ -9,6 +9,7 @@ include("parse.php");
 function getPageContent($pagename){
     $address = "pages/{$pagename}.html";
     $addressContents = file_get_contents($address);
+    substr($address, strpos($address,"page=") +5, strlen($address) -1 )
     if(file_exists($address)){
         return '<div id="board">'.$addressContents.'</div><br>';
     }
@@ -16,5 +17,10 @@ function getPageContent($pagename){
         return "Error 404:<br>The Page: {$pagename}, was not found.<br>";
     };
 };
+
+strtoupper();
+strtolower()
+ucfirst()
+ucwords()
 ?>
 
