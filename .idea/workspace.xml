@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/getPageContent.php" afterPath="$PROJECT_DIR$/scripts/getPageContent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TryCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="getPageContent.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="71" selection-start="308" selection-end="308" vertical-scroll-proportion="0.28350514" vertical-offset="0" max-vertical-offset="582">
+            <state line="23" column="11" selection-start="562" selection-end="562" vertical-scroll-proportion="0.5927835" vertical-offset="0" max-vertical-offset="582">
               <folding />
             </state>
           </provider>
@@ -515,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/bootstrap/css/bootstrap-theme.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="13408" selection-end="13408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/variables.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="11" selection-start="283" selection-end="283" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="270">
@@ -550,9 +542,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/bootstrap/css/bootstrap-theme.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="13408" selection-end="13408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="71" selection-start="308" selection-end="308" vertical-scroll-proportion="0.28350514" vertical-offset="0" max-vertical-offset="582">
+        <state line="23" column="11" selection-start="562" selection-end="562" vertical-scroll-proportion="0.5927835" vertical-offset="0" max-vertical-offset="582">
           <folding />
         </state>
       </provider>

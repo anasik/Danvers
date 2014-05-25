@@ -9,7 +9,7 @@ include("parse.php");
 function getPageContent($pagename){
     $address = "pages/{$pagename}.html";
     $addressContents = file_get_contents($address);
-    substr($address, strpos($address,"page=") +5, strlen($address) -1 )
+    substr($address, strpos($address,"page=") +5, strlen($address) -1 );
     if(file_exists($address)){
         return '<div id="board">'.$addressContents.'</div><br>';
     }
@@ -18,9 +18,9 @@ function getPageContent($pagename){
     };
 };
 
-strtoupper();
+/*strtoupper();
 strtolower()
 ucfirst()
-ucwords()
+ucwords()*/
 ?>
 
