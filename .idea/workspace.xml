@@ -28,7 +28,7 @@
       <file leaf-file-name="getPageContent.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="9" selection-start="246" selection-end="246" vertical-scroll-proportion="0.28350514" vertical-offset="0" max-vertical-offset="582">
+            <state line="8" column="45" selection-start="153" selection-end="153" vertical-scroll-proportion="0.20618556" vertical-offset="0" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -46,7 +46,7 @@
       <file leaf-file-name="parse.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/parse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="16" selection-start="710" selection-end="751" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="555">
+            <state line="24" column="24" selection-start="674" selection-end="674" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
@@ -500,20 +500,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="411" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="158" selection-end="158" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="60" selection-start="248" selection-end="248" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/variables.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="11" selection-start="283" selection-end="283" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="270">
@@ -535,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/parse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="16" selection-start="710" selection-end="751" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/bootstrap/css/bootstrap-theme.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="1" selection-start="13408" selection-end="13408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
@@ -549,9 +528,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="9" selection-start="158" selection-end="158" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="60" selection-start="248" selection-end="248" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/parse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="24" selection-start="674" selection-end="674" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="246" selection-end="246" vertical-scroll-proportion="0.28350514" vertical-offset="0" max-vertical-offset="582">
+        <state line="8" column="45" selection-start="153" selection-end="153" vertical-scroll-proportion="0.20618556" vertical-offset="0" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
