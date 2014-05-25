@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/nav.php" afterPath="$PROJECT_DIR$/includes/nav.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/parse.php" afterPath="$PROJECT_DIR$/scripts/parse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TryCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,28 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="getPageContent.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="50" selection-start="318" selection-end="318" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="390">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="nav.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/nav.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="14" selection-start="450" selection-end="450" vertical-scroll-proportion="0.3228477" vertical-offset="0" max-vertical-offset="604">
+            <state line="22" column="17" selection-start="832" selection-end="832" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parse.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="parse.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/parse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="22" selection-start="850" selection-end="850" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="555">
+            <state line="29" column="7" selection-start="862" selection-end="862" vertical-scroll-proportion="0.5960265" vertical-offset="0" max-vertical-offset="604">
               <folding />
             </state>
           </provider>
@@ -83,8 +74,8 @@
         <option value="$PROJECT_DIR$/scripts/junk.php" />
         <option value="$PROJECT_DIR$/includes/page.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/scripts/getPageContent.php" />
         <option value="$PROJECT_DIR$/includes/nav.php" />
+        <option value="$PROJECT_DIR$/scripts/getPageContent.php" />
         <option value="$PROJECT_DIR$/scripts/parse.php" />
       </list>
     </option>
@@ -440,27 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="72" selection-start="741" selection-end="741" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="50" selection-start="318" selection-end="318" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/parse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="22" selection-start="850" selection-end="850" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="14" selection-start="0" selection-end="551" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="390">
@@ -468,9 +438,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="72" selection-start="741" selection-end="741" vertical-scroll-proportion="0.397351" vertical-offset="0" max-vertical-offset="604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/nav.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="450" selection-end="450" vertical-scroll-proportion="0.3228477" vertical-offset="0" max-vertical-offset="604">
+        <state line="22" column="17" selection-start="832" selection-end="832" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/getPageContent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="293" selection-end="298" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/parse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="7" selection-start="862" selection-end="862" vertical-scroll-proportion="0.5960265" vertical-offset="0" max-vertical-offset="604">
           <folding />
         </state>
       </provider>
