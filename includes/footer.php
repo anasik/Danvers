@@ -6,5 +6,5 @@
  * Time: 9:24 PM
  */ ?>
 <footer>
-    <span><?php echo $footer;?></span>
+    <span><p style="padding: 0 15px;" class="text-muted"><?php echo $footer;?></p></span>
 </footer>
