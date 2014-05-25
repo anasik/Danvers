@@ -7,7 +7,7 @@
  */
 include('variables.php')
 ?>
-<header>
+<header class="starter-template">
     <h1><?php echo $SiteHeader; ?></h1>
-    <h2><?php echo $SHeaderSubtitle; ?></h2>
+    <span class="lead"><h2><?php echo $SHeaderSubtitle; ?></h2></span>
 </header>
