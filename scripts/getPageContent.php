@@ -9,7 +9,7 @@ include("parse.php");
 function getPageContent($pagename){
     $address = strtolower("pages/{$pagename}.html");
     if(file_exists($address)){
-        return '<div id="board">'.$addressContents.'</div><br>';
+        return '<div id="board">'.$address.'</div><br>';
     }
         else {
         return "Error 404:<br>The Page: {$pagename}, was not found.<br>";
