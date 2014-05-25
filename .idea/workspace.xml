@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/nav.php" afterPath="$PROJECT_DIR$/includes/nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/parse.php" afterPath="$PROJECT_DIR$/scripts/parse.php" />
     </list>
     <ignored path="TryCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +38,16 @@
       <file leaf-file-name="nav.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/nav.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="47" selection-start="887" selection-end="887" vertical-scroll-proportion="0.54635763" vertical-offset="0" max-vertical-offset="604">
+            <state line="13" column="14" selection-start="450" selection-end="450" vertical-scroll-proportion="0.3228477" vertical-offset="0" max-vertical-offset="604">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parse.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/parse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="22" selection-start="850" selection-end="850" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
@@ -72,10 +82,10 @@
         <option value="$PROJECT_DIR$/include.html" />
         <option value="$PROJECT_DIR$/scripts/junk.php" />
         <option value="$PROJECT_DIR$/includes/page.php" />
-        <option value="$PROJECT_DIR$/scripts/parse.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/scripts/getPageContent.php" />
         <option value="$PROJECT_DIR$/includes/nav.php" />
+        <option value="$PROJECT_DIR$/scripts/parse.php" />
       </list>
     </option>
   </component>
@@ -130,6 +140,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="QuickSites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TryCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QuickSites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,13 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/parse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="44" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="72" selection-start="741" selection-end="741" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="540">
@@ -437,6 +454,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/parse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="22" selection-start="850" selection-end="850" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="14" selection-start="0" selection-end="551" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="390">
@@ -446,7 +470,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/nav.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="47" selection-start="887" selection-end="887" vertical-scroll-proportion="0.54635763" vertical-offset="0" max-vertical-offset="604">
+        <state line="13" column="14" selection-start="450" selection-end="450" vertical-scroll-proportion="0.3228477" vertical-offset="0" max-vertical-offset="604">
           <folding />
         </state>
       </provider>

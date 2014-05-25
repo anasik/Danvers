@@ -18,9 +18,9 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href='<?php echo $address?>'>Home</a></li>
-            <li><a href='<?php echo $address?>'>About</a></li>
-            <li><a href='<?php echo $address?>'>Contact</a></li>
+            <li class="active"><a href="?page=">Home</a></li>
+            <li><a href="?page=about">About</a></li>
+            <li><a href="?page=contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
