@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: anas
- * Date: 1/15/14
- * Time: 8:58 PM
- */
-
 function GetPagesURL() {
     $pageURL = 'http';
     if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}

@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: anas
- * Date: 1/14/14
- * Time: 9:58 PM
- */?>
+ /?>
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">

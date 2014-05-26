@@ -3,7 +3,7 @@ include('includes/variables.php');?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title><?php echo $SiteTitle;?></title>
+    <title><?php echo $siteTitle;?></title>
     <link rel="stylesheet" type="text/css" href=""/>
     <!---Bootstrap -->
     <!-- Latest compiled and minified CSS -->

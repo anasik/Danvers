@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: anas
- * Date: 1/15/14
- * Time: 9:40 PM
- */
 include("parse.php");
 function getPageContent($pagename){
     $address = strtolower("pages/{$pagename}.html");
