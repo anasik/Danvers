@@ -1,5 +1,5 @@
 <?php
- /?>
+?>
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -13,7 +13,7 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="?page=">Home</a></li>
+            <li class="active"><a href="<?php echo $homeURL?>">Home</a></li>
             <li><a href="?page=about">About</a></li>
             <li><a href="?page=contact">Contact</a></li>
           </ul>
