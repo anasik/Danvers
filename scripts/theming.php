@@ -1,8 +1,8 @@
 <?php
 $ThemeName = ""; //would be the same as the name of the DIR with the themes files
 $ThemeDirectory = ""; // '/themes' by default
-$Bootstrap = 1; // toggle on or off
-$JQM = ""; // toggle on or off
+$Bootstrap = 0; // toggle on or off
+$JQM = "1"; // toggle on or off
 
 function checkBSJQ(){
     global $Bootstrap;
