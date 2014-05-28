@@ -10,8 +10,8 @@ function checkBSJQ(){
     if($Bootstrap) {
        return "BS";
     } elseif ($JQM) {
-        return "JQ"
-    } else {return false}
+        return "JQ";
+    } else {return false;}
 
 }
 echo checkBSJQ()
