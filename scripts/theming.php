@@ -5,14 +5,16 @@ $Bootstrap = 1; // toggle on or off
 $JQM = ""; // toggle on or off
 
 function checkBSJQ(){
-    if(Bootstrap) {
+    global $Bootstrap;
+    global $JQM;
+    if($Bootstrap) {
        return "BS";
-    } elseif (JQM) {
+    } elseif ($JQM) {
         return "JQ"
     } else {return false}
 
 }
-echo checkBSJQ();
+echo checkBSJQ()
 
 // Define Classes and IDs (with Bootstrap [starter-template])
 /*$headerClass = "starter-template";
