@@ -2,7 +2,7 @@
 $ThemeName = ""; //would be the same as the name of the DIR with the themes files
 $ThemeDirectory = ""; // '/themes' by default
 $Bootstrap = 0; // toggle on or off
-$JQM = "false"; // toggle on or off
+$JQM = false; // toggle on or off
 
 function checkBSJQ(){
     global $Bootstrap;
