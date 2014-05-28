@@ -5,9 +5,9 @@ $Bootstrap = 1; // toggle on or off
 $JQM = ""; // toggle on or off
 
 function checkBSJQ(){
-    if($Bootstrap) {
+    if(Bootstrap) {
        return "BS";
-    } elseif ($JQM) {
+    } elseif (JQM) {
         return "JQ"
     } else {return false}
 
