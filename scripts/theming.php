@@ -11,7 +11,7 @@ function checkBSJQ(){
        return "BS";
     } elseif ($JQM) {
         return "JQ";
-    } else {return false;}
+    } else {return "Neither";}
 
 }
 echo checkBSJQ()
