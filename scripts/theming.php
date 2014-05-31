@@ -64,6 +64,8 @@ Function somewhere in Head tag.. main return would be the Stylesheet and script 
 
 Make it even simpler.. add everything... all can be toggled simply by setting vars to yes/no, true/false, 0/1 and shit
 
+add another function, that can be called in every tag, and would apply CSS right in the tags where needed.
+
 ------
 NEWSFLASH: started..
  1 func checks if the 2 are enabled.. if neither, it tells so..

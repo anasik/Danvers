@@ -2,6 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/includes/bootstrap/css/bootstrap-theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/includes/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/includes/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/includes/bootstrap/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/includes/bootstrap/css/bootstrap.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/includes/bootstrap/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/includes/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/includes/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/includes/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/includes/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/includes/bootstrap/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/includes/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/markup.html" afterPath="$PROJECT_DIR$/themes/bootstrap/markup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/theming.php" afterPath="$PROJECT_DIR$/scripts/theming.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TryCMS.iws" />
@@ -25,19 +51,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="theming.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/theming.php">
+      <file leaf-file-name="markup.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/bootstrap/markup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="34" selection-start="1212" selection-end="1212" vertical-scroll-proportion="1.7460318" vertical-offset="0" max-vertical-offset="1230">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="231" selection-end="231" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="435">
+            <state line="9" column="33" selection-start="457" selection-end="457" vertical-scroll-proportion="0.34526855" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -70,8 +87,9 @@
         <option value="$PROJECT_DIR$/scripts/theme.php" />
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/themes/bootstrap/markup.html" />
         <option value="$PROJECT_DIR$/scripts/theming.php" />
+        <option value="$PROJECT_DIR$/themes/bootstrap/bootstrap/css/bootstrap-theme.min.css" />
+        <option value="$PROJECT_DIR$/themes/bootstrap/markup.html" />
       </list>
     </option>
   </component>
@@ -187,34 +205,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TryCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QuickSites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TryCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QuickSites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -248,9 +238,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/includes" />
       <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/includes" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.index.php">
@@ -331,10 +321,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26290706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26290706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.50039715" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -637,13 +627,6 @@
         <state line="4" column="13" selection-start="65" selection-end="65" vertical-scroll-proportion="0.09933775" vertical-offset="0" max-vertical-offset="604" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/markup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="41" selection-end="41" vertical-scroll-proportion="0.024834437" vertical-offset="0" max-vertical-offset="604">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="6" selection-start="231" selection-end="231" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="435">
@@ -651,9 +634,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/bootstrap/css/bootstrap-theme.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="49" selection-start="13235" selection-end="13235" vertical-scroll-proportion="0.17073171" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/theming.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="34" selection-start="1212" selection-end="1212" vertical-scroll-proportion="1.7460318" vertical-offset="0" max-vertical-offset="1230">
+        <state line="75" column="64" selection-start="2648" selection-end="2648" vertical-scroll-proportion="0.822335" vertical-offset="639" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/markup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="33" selection-start="457" selection-end="457" vertical-scroll-proportion="0.34526855" vertical-offset="0" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
