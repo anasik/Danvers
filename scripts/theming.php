@@ -1,9 +1,8 @@
 <?php
 $Bootstrap = 1; // toggle on or off
 $JQM = false; // toggle on or off
-$ThemeName = ""; //would be the same as the name of the DIR with the themes files
-$DefThemesDirectory = "themes"; // '/themes' by default
-$themeDir = $DefThemesDirectory . "/" . $ThemeName;
+$ThemeName = "bootstrap"; //would be the same as the name of the DIR with the themes files
+$themeDir = "themes/" . $ThemeName;
 $themeMarkup = file_get_contents($themeDir . "/markup.html");
 
 function checkBSJQ(){
