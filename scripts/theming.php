@@ -2,8 +2,8 @@
 $Bootstrap = 1; // toggle on or off
 $JQM = false; // toggle on or off
 $ThemeName = "bootstrap"; //would be the same as the name of the DIR with the themes files
-$themeDir = "themes/" . $ThemeName;
-$themeMarkup = file_get_contents($themeDir . "/markup.html");
+$ThemeDir = "themes/" . $ThemeName;
+$ThemeMarkup = file_get_contents($ThemeDir . "/markup.html");
 
 function checkBSJQ(){
     global $Bootstrap;
