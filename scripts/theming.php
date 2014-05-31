@@ -17,7 +17,15 @@ function checkBSJQ(){
 }
 function setTheme(){
     global $ThemeName, $ThemeMarkup;
-    switch(checkBSJQ()) {
+    if(checkBSJQ() == "bs"){
+        $ThemeName = "bootstrap";
+        return $ThemeMarkup;
+    } elseif(checkBSJQ()== "jq"){
+        return "not here yet";
+    } elseif (checkBSJQ() == "neither"){
+        return "k";
+    }
+    /*switch(checkBSJQ()) {
         case "bs":
             $ThemeName = "bootstrap";
             return $ThemeMarkup;
@@ -26,7 +34,7 @@ function setTheme(){
             break;
         case "neither":
             break;
-    }
+    }*/
 }
 
 // Define Classes and IDs (with Bootstrap [starter-template])
