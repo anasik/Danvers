@@ -5,7 +5,6 @@ include('scripts/theming.php')?>
 <html>
 <head>
     <title><?php echo $siteTitle;?></title>
-    <?php echo setTheme(); ?>
 </head>
 <body>
 <?php include('includes/nav.php');?>
