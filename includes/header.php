@@ -1,7 +1,7 @@
 <?php
 include('variables.php')
 ?>
-<header class="">
+<header>
     <h1><?php echo $SiteHeader; ?></h1>
-    <span class="lead"><p><?php echo $SHeaderSubtitle; ?></p></span>
+    <span><p><?php echo $SHeaderSubtitle; ?></p></span>
 </header>

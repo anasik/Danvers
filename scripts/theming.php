@@ -1,11 +1,11 @@
 <?php
 $Bootstrap = 1; // toggle on or off
 $JQM = false; // toggle on or off
-$ThemeName = "bootstrap"; //would be the same as the name of the DIR with the themes files
+$ThemeName = "default"; //would be the same as the name of the DIR with the themes files
 $ThemeDir = "themes/" . $ThemeName;
 $ThemeMarkup = file_get_contents($ThemeDir . "/markup.html");
 
-function checkBSJQ(){
+/*function checkBSJQ(){
     global $Bootstrap;
     global $JQM;
     if($Bootstrap) {
@@ -34,8 +34,8 @@ function setTheme(){
             break;
         case "neither":
             break;
-    }*/
-}
+    }
+}*/
 
 // Define Classes and IDs (with Bootstrap [starter-template])
 /*  $themeDir = $DefThemesDirectory . "/" . $ThemeName;
@@ -64,7 +64,8 @@ Function somewhere in Head tag.. main return would be the Stylesheet and script 
 
 Make it even simpler.. add everything... all can be toggled simply by setting vars to yes/no, true/false, 0/1 and shit
 
-add another function, that can be called in every tag, and would apply CSS right in the tags where needed.
+add another function, that can be called in every tag, and would apply CSS right in the tags where needed. Or hw about one,
+that actually appends the whole attribute shit? :D
 
 ------
 NEWSFLASH: started..
