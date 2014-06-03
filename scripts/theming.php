@@ -14,6 +14,7 @@ function GetAttributes($tagName){
         return "nope";
     }
 }*/
+echo "../". $ThemeDir . "/attributes.php";
 echo $ThemeAttrs;
 ?>
 

@@ -55,7 +55,7 @@
       <file leaf-file-name="theming.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/theming.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="17" selection-start="497" selection-end="497" vertical-scroll-proportion="0.5633803" vertical-offset="0" max-vertical-offset="426">
+            <state line="16" column="42" selection-start="522" selection-end="522" vertical-scroll-proportion="0.5633803" vertical-offset="0" max-vertical-offset="426">
               <folding />
             </state>
           </provider>
@@ -714,7 +714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/theming.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="497" selection-end="497" vertical-scroll-proportion="0.5633803" vertical-offset="0" max-vertical-offset="426">
+        <state line="16" column="42" selection-start="522" selection-end="522" vertical-scroll-proportion="0.5633803" vertical-offset="0" max-vertical-offset="426">
           <folding />
         </state>
       </provider>
