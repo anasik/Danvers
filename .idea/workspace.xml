@@ -64,16 +64,7 @@
       <file leaf-file-name="theming.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/theming.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="48" selection-start="362" selection-end="362" vertical-scroll-proportion="0.28169015" vertical-offset="0" max-vertical-offset="426">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="attributes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/default/attributes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="285">
+            <state line="14" column="6" selection-start="471" selection-end="471" vertical-scroll-proportion="0.49295774" vertical-offset="0" max-vertical-offset="426">
               <folding />
             </state>
           </provider>
@@ -710,14 +701,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/default/attributes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="285">
+        <state line="7" column="0" selection-start="86" selection-end="97" vertical-scroll-proportion="0.24647887" vertical-offset="0" max-vertical-offset="426">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/theming.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="48" selection-start="362" selection-end="362" vertical-scroll-proportion="0.28169015" vertical-offset="0" max-vertical-offset="426">
+        <state line="14" column="6" selection-start="471" selection-end="471" vertical-scroll-proportion="0.49295774" vertical-offset="0" max-vertical-offset="426">
           <folding />
         </state>
       </provider>
