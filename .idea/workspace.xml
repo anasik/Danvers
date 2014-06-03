@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/theming.php" afterPath="$PROJECT_DIR$/scripts/theming.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TryCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,7 +64,16 @@
       <file leaf-file-name="theming.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/theming.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="2" selection-start="196" selection-end="196" vertical-scroll-proportion="0.17605634" vertical-offset="0" max-vertical-offset="426">
+            <state line="10" column="29" selection-start="358" selection-end="358" vertical-scroll-proportion="0.35211268" vertical-offset="0" max-vertical-offset="426">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attributes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default/attributes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="17" selection-start="124" selection-end="124" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -98,12 +106,12 @@
         <option value="$PROJECT_DIR$/includes/footer.php" />
         <option value="$PROJECT_DIR$/includes/nav.php" />
         <option value="$PROJECT_DIR$/includes/sidebar.php" />
-        <option value="$PROJECT_DIR$/themes/default/attributes.php" />
         <option value="$PROJECT_DIR$/themes/bootstrap/markup.html" />
         <option value="$PROJECT_DIR$/themes/default/style.css" />
         <option value="$PROJECT_DIR$/themes/default/markup.html" />
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/themes/default/attributes.php" />
         <option value="$PROJECT_DIR$/scripts/theming.php" />
       </list>
     </option>
@@ -663,11 +671,6 @@
         <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/attributes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="9" selection-end="9" vertical-scroll-proportion="0.03836317" vertical-offset="0" max-vertical-offset="391" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/bootstrap/markup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="68" selection-start="492" selection-end="492" vertical-scroll-proportion="0.34526855" vertical-offset="0" max-vertical-offset="391" />
@@ -701,9 +704,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/attributes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="124" selection-end="124" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/theming.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="2" selection-start="196" selection-end="196" vertical-scroll-proportion="0.17605634" vertical-offset="0" max-vertical-offset="426">
+        <state line="10" column="29" selection-start="358" selection-end="358" vertical-scroll-proportion="0.35211268" vertical-offset="0" max-vertical-offset="426">
           <folding />
         </state>
       </provider>
