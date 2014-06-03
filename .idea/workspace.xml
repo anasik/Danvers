@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/theming.php" afterPath="$PROJECT_DIR$/scripts/theming.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TryCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,7 +55,7 @@
       <file leaf-file-name="theming.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/theming.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="42" selection-start="522" selection-end="522" vertical-scroll-proportion="0.5633803" vertical-offset="0" max-vertical-offset="426">
+            <state line="18" column="2" selection-start="543" selection-end="543" vertical-scroll-proportion="0.63380283" vertical-offset="0" max-vertical-offset="426">
               <folding />
             </state>
           </provider>
@@ -110,7 +110,7 @@
   <component name="PhpDebugGeneral" hide_empty_superglobals="false" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP5" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
+    <option name="x" value="1431" />
     <option name="y" value="24" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
@@ -376,7 +376,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="1431" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -714,7 +714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/theming.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="522" selection-end="522" vertical-scroll-proportion="0.5633803" vertical-offset="0" max-vertical-offset="426">
+        <state line="18" column="2" selection-start="543" selection-end="543" vertical-scroll-proportion="0.63380283" vertical-offset="0" max-vertical-offset="426">
           <folding />
         </state>
       </provider>
