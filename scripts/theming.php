@@ -2,11 +2,10 @@
 $ThemeName = "default"; //would be the same as the name of the DIR with the themes files
 $ThemeDir = "themes/" . $ThemeName;
 $ThemeMarkup = file_get_contents($ThemeDir . "/markup.html");
-$attraddress = $ThemeDir . "/attributes.php";
-include $attraddress;
 
 function GetAttributes($tagName){
-    global $ThemeAttrs;
+    global $ThemeName, $ThemeDir;
+    include("../". $ThemeDir . "/attributes.php");
     if(array_key_exists($tagName, $ThemeAttrs)){
         return $ThemeAttrs[$tagName];
     }
