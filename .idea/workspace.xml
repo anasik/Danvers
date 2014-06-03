@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82d90677-6db6-49c9-ad27-742cc6666d31" name="Default" comment="Removed the extra semicolon from page.php&#10;trying again.. starting to work.. does seems so">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/theming.php" afterPath="$PROJECT_DIR$/scripts/theming.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TryCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,7 +65,7 @@
       <file leaf-file-name="theming.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/theming.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="6" selection-start="471" selection-end="471" vertical-scroll-proportion="0.49295774" vertical-offset="0" max-vertical-offset="426">
+            <state line="9" column="48" selection-start="383" selection-end="383" vertical-scroll-proportion="0.31690142" vertical-offset="0" max-vertical-offset="426">
               <folding />
             </state>
           </provider>
@@ -708,7 +709,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/theming.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="471" selection-end="471" vertical-scroll-proportion="0.49295774" vertical-offset="0" max-vertical-offset="426">
+        <state line="9" column="48" selection-start="383" selection-end="383" vertical-scroll-proportion="0.31690142" vertical-offset="0" max-vertical-offset="426">
           <folding />
         </state>
       </provider>
