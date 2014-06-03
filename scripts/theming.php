@@ -15,6 +15,6 @@ function GetAttributes($tagName){
     }
 }*/
 echo "../". $ThemeDir . "/attributes.php";
-echo $ThemeAttrs;
+echo $ThemeAttrs["header"];
 ?>
 
