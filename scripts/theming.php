@@ -2,7 +2,8 @@
 $ThemeName = "default"; //would be the same as the name of the DIR with the themes files
 $ThemeDir = "themes/" . $ThemeName;
 $ThemeMarkup = file_get_contents($ThemeDir . "/markup.html");
-include($ThemeDir . "/attributes.php");
+$attraddress = $ThemeDir . "/attributes.php";
+include $attraddress;
 
 function GetAttributes($tagName){
     global $ThemeAttrs;
@@ -13,6 +14,7 @@ function GetAttributes($tagName){
         return "nope";
     }
 }
+echo $ThemeAttrs;
 echo GetAttributes("header");
 ?>
 
