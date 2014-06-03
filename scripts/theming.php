@@ -12,9 +12,9 @@ function GetAttributes($tagName){
     }
     else {
         return "nope";
-    };
-};*/
-echo $ThemeAttrs;
+    };*/
+}
+echo $ThemeAttrs["header"];
 //echo GetAttributes("header");
 ?>
 
