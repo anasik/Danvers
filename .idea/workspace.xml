@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="62603e3f-57b3-41a6-9af5-0fbd0619917c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/theming.php" afterPath="$PROJECT_DIR$/scripts/theming.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TryCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +37,7 @@
       <file leaf-file-name="theming.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/theming.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="29" selection-start="602" selection-end="602" vertical-scroll-proportion="0.6958763" vertical-offset="0" max-vertical-offset="405">
+            <state line="7" column="21" selection-start="296" selection-end="296" vertical-scroll-proportion="0.27061856" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -244,7 +243,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/theming.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="602" selection-end="602" vertical-scroll-proportion="0.6958763" vertical-offset="0" max-vertical-offset="405">
+        <state line="7" column="21" selection-start="296" selection-end="296" vertical-scroll-proportion="0.27061856" vertical-offset="0" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
