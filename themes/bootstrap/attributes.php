@@ -6,7 +6,7 @@
  * Time: 6:47 PM
  */
 $ThemeAttrs = array(
-    "headdder" => 'class="headsss" id="headse"'
+    "header" => 'class="headzzzz" id="headse"'
 
 );
 ?>
