@@ -5,7 +5,7 @@ $ThemeMarkup = file_get_contents($ThemeDir . "/markup.html");
 include("../". $ThemeDir . "/attributes.php");
 
 function GetAttributes($tagName){
-    global $ThemeDir, $ThemeAttrs;
+    global $ThemeAttrs;
     if(array_key_exists($tagName, $ThemeAttrs)){
         return $ThemeAttrs[$tagName];
     }
