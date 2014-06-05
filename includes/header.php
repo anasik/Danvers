@@ -1,7 +1,7 @@
 <?php
-include('variables.php')
+include('variables.php');
 ?>
-<header class="headsss" id="headse">
+<header <?php echo GetAttributes("header");?>>
     <h1><?php echo $SiteHeader; ?></h1>
     <span><p><?php echo $SHeaderSubtitle; ?></p></span>
 </header>
