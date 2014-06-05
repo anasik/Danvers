@@ -38,7 +38,7 @@
       <file leaf-file-name="theming.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/theming.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="44" selection-start="535" selection-end="535" vertical-scroll-proportion="0.6185567" vertical-offset="0" max-vertical-offset="405">
+            <state line="18" column="29" selection-start="602" selection-end="602" vertical-scroll-proportion="0.6958763" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -199,7 +199,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977098" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977098" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -244,7 +244,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/theming.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="535" selection-end="535" vertical-scroll-proportion="0.6185567" vertical-offset="0" max-vertical-offset="405">
+        <state line="18" column="29" selection-start="602" selection-end="602" vertical-scroll-proportion="0.6958763" vertical-offset="0" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
