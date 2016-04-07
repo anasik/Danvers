@@ -2,6 +2,7 @@ repo1
 =====
 QUICKSITES
 ----------
+Demo: http://warm-springs-2431.herokuapp.com/
 A small PHP script, that aids one in building an almost static yet fairly dynamic website, when the requirements are lower than WordPress but higher than a bundle of html documents. 
 The common elements, i.e. Branding, Nav, footer e.t.c. are loaded once while the individual page content is dynamically loaded from separate files stored in the 'pages' folder.
 
