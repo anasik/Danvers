@@ -1,5 +1,3 @@
-repo1
-=====
 QUICKSITES
 ----------
 Demo: http://warm-springs-2431.herokuapp.com/
