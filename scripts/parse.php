@@ -17,7 +17,8 @@ function getPageName() {
     $url = GetPagesURL();
     $query = parse_url($url, PHP_URL_QUERY);
     if (strpos($query,'page=') !== false) {
-        $page = substr($query, strpos($query,"page=") +5);
+//        $page = substr($query, strpos($query,"page=") +5);
+	$page = $_GET['page'];
         return $page;
     } /*else if(strpos($query,'page=') + 5  == false)) {
         return "home";
