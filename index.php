@@ -11,13 +11,11 @@ include('scripts/theming.php')?>
 <?php include('includes/nav.php');?>
 <div class="container">
 <?php include('includes/header.php');?>
----------------------------------------------------
+<?php include('includes/sidebar.php');?>
 <?php
 echo "<h3>".getPageName()."</h3><br>";
 echo getPageContent(getPageName());
 ?>
----------------------------------------------------
-<?php include('includes/sidebar.php');?>
 </div>
 <?php include('includes/footer.php');?>
 </body>
