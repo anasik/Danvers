@@ -1,5 +1,5 @@
 <?php 
-include('scripts/getPageContent.php');
+include('scripts/getContent.php');
 include('includes/variables.php');
 include('scripts/theming.php')?>
 <!DOCTYPE html>
