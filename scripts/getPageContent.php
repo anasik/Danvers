@@ -38,5 +38,13 @@ function getPageContent($pagename){
         return "Error 404:<br>The Page: {$pagename}, was not found.<br>";
     };
 };
+function getPosts(){
+	$list =  scandir('content/posts');
+	foreach($list as $i => $post){
+		if($i>1){
+		$address = ("content/posts/{$post}");
+		echo "<h2>{$post}</h2><br><br>".file_get_contents($address)."<br><br>";}
+	}
+}
 ?>
 
