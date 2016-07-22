@@ -1,4 +1,5 @@
-<?php include('scripts/getPageContent.php');
+<?php 
+include('scripts/getPageContent.php');
 include('includes/variables.php');
 include('scripts/theming.php')?>
 <!DOCTYPE html>
