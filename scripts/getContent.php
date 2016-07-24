@@ -1,4 +1,8 @@
 <?php
+include("scripts/assets/parsedown.php");
+include("scripts/assets/DataBag.php");
+include("scripts/assets/txparser.php");
+include("scripts/assets/Tag.php");
 function GetPagesURL() {
     $pageURL = 'http';
   //  if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
@@ -29,21 +33,120 @@ function getPageName() {
     }
 
 }
-function getPageContent($pagename){
-    $address = strtolower("content/pages/{$pagename}.html");
+function getPageContent($pagename,$type){
+    $address = strtolower("content/{$type}s/{$pagename}.html");
+    $addrest = strtolower("content/{$type}s/{$pagename}.textile");
+    $addresm = strtolower("content/{$type}s/{$pagename}.md");
+    $addre2m = strtolower("content/{$type}s/{$pagename}.markdown");
     if(file_exists($address)){
-        return '<div id="board">'.file_get_contents($address).'</div><br>';
+	$markup = file_get_contents($address);
     }
-        else {
+  /*      elseif((file_exists($addrest) and (file_exists($addresm) or file_exists($addre2m))) or (!file_exists($address) and !file_exists($addrest) and !file_exists($addresm) and !file_exists($addre2m)) ) {
         return "Error 404:<br>The Page: {$pagename}, was not found.<br>";
-    };
+    }*/ elseif(file_exists($addrest) and !file_exists($addresm) and !file_exists($addre2m)){
+	 	$parser = new \Netcarver\Textile\Parser();
+		$markup = $parser->parse(file_get_contents($addrest));
+	} elseif((file_exists($addresm) and !file_exists($addre2m)) and !file_exists($addrest)){
+			$Parsedown = new Parsedown();
+			$markup = $Parsedown->text(file_get_contents($addresm));
+} elseif((file_exists($addre2m) and !file_exists($addresm)) and !file_exists($addrest)){
+			$Parsedown = new Parsedown();
+			$markup = $Parsedown->text(file_get_contents($addre2m));
+}  else {
+	return "Error 404:<br>The Page: {$pagename}, was not found.<br>";}
+        return '<div id="board">'.$markup.'</div><br>';
 };
 function getPosts(){
-	$list =  scandir('content/posts');
+	$dirlist =  scandir('content/posts');
+	$list = array();
+	global $posts;
+	$posts = array();
+	foreach($dirlist as $filen){
+		if(checkMarkupType($filen)){
+			array_push($list,$filen);
+		}
+	}
 	foreach($list as $i => $post){
-		if($i>1){
 		$address = ("content/posts/{$post}");
-		echo "<h2>{$post}</h2><br><br>".file_get_contents($address)."<br><br>";}
+		switch(checkMarkupType($post)){
+			case "html":
+			$markup = file_get_contents($address);
+			echo createPost($i,$post,$markup);
+			break;
+
+			case "md":
+			case "markdown":
+			$Parsedown = new Parsedown();
+			$markup = $Parsedown->text(file_get_contents($address));
+			echo createPost($i,$post,$markup);
+			break;
+
+			case "textile":
+			$parser = new \Netcarver\Textile\Parser();
+			$markup = $parser->parse(file_get_contents($address));
+			echo createPost($i,$post,$markup);
+			break;
+		}
+	}
+}
+function checkMarkupType($name){
+	$file_parts = pathinfo($name);
+
+switch(strtolower($file_parts['extension']))
+{
+    case "md":
+    return "md";
+    break;
+
+    case "markdown":
+    return "md";
+    break;
+    
+case "html":
+return "html";
+break;
+
+case "textile":
+return "textile";
+break;
+
+default:    
+break;
+}
+};
+function breakItDown($file){
+		$name = pathinfo($file)["filename"];
+		$date = substr($name,0,10);
+		$title = substr($name, 11);
+	return array($date,$title);
+}
+function createPost($i,$fname,$markup) {
+	global $posts;
+	$meta = breakItDown($fname);
+	array_push($posts,new Post($meta[0],$meta[1],$markup));
+	return "<h2>{$posts[$i]->ptitle}</h2><br><br>".$posts[$i]->contents."<br><br>";
+}
+class Content {
+}
+
+class Post extends Content {
+	public $date;
+	public $ptitle;
+	public $contents;
+	public $category;
+	public function __construct($d,$t,$c){
+		$this->date = $d;
+		$this->ptitle = $t;
+		$this->contents = $c;
+
+	}
+}
+class Page extends Content {
+	public $ptitle;
+	public $contents;
+	public function __construct($t,$c){
+		$this->contents = $c;
+		$this->ptitle = $t;
 	}
 }
 ?>
