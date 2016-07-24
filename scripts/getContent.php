@@ -24,10 +24,9 @@ function getPageName() {
 //        $page = substr($query, strpos($query,"page=") +5);
 	$page = $_GET['page'];
         return $page;
-    } /*else if(strpos($query,'page=') + 5  == false)) {
-        return "home";
-    }*/
-elseif(strpos($query,'post=') !== false){   $page = $_GET['post'];
+	}
+	elseif(strpos($query,'post=') !== false){   
+	$page = $_GET['post'];
         return $page;
 }
     else {
