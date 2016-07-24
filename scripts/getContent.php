@@ -27,13 +27,24 @@ function getPageName() {
     } /*else if(strpos($query,'page=') + 5  == false)) {
         return "home";
     }*/
+elseif(strpos($query,'post=') !== false){   $page = $_GET['post'];
+        return $page;
+}
     else {
         return "home";
 
     }
 
 }
-function getPageContent($pagename,$type){
+function getPageContent($pagename){
+
+    $url = GetPagesURL();
+    $query = parse_url($url, PHP_URL_QUERY);
+    if (strpos($query,'post=') !== false) {
+	$type = "post"; 
+	} else {
+	$type = "page";
+	}	
     $address = strtolower("content/{$type}s/{$pagename}.html");
     $addrest = strtolower("content/{$type}s/{$pagename}.textile");
     $addresm = strtolower("content/{$type}s/{$pagename}.md");

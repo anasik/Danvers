@@ -15,7 +15,7 @@ include('scripts/theming.php')?>
 <?php include('includes/sidebar.php');?>
 <?php
 echo "<h3>".getPageName()."</h3><br>";
-echo getPageContent(getPageName(),"page");
+echo getPageContent(getPageName());
 getPosts();
 ?>
 </div>
