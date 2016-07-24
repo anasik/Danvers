@@ -64,6 +64,7 @@ function getPageContent($pagename){
 			$markup = $Parsedown->text(file_get_contents($addre2m));
 }  else {
 	return "Error 404:<br>The Page: {$pagename}, was not found.<br>";}
+	$markup = str_replace("@_#_blog_#_@",getPosts(),$markup);
         return '<div id="board">'.$markup.'</div><br>';
 };
 function getPosts(){
@@ -81,23 +82,22 @@ function getPosts(){
 		switch(checkMarkupType($post)){
 			case "html":
 			$markup = file_get_contents($address);
-			echo createPost($i,$post,$markup);
 			break;
 
 			case "md":
 			case "markdown":
 			$Parsedown = new Parsedown();
 			$markup = $Parsedown->text(file_get_contents($address));
-			echo createPost($i,$post,$markup);
 			break;
 
 			case "textile":
 			$parser = new \Netcarver\Textile\Parser();
 			$markup = $parser->parse(file_get_contents($address));
-			echo createPost($i,$post,$markup);
 			break;
 		}
+			$return = $return.createPost($i,$post,$markup);
 	}
+	return $return;
 }
 function checkMarkupType($name){
 	$file_parts = pathinfo($name);

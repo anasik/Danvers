@@ -16,7 +16,6 @@ include('scripts/theming.php')?>
 <?php
 echo "<h3>".getPageName()."</h3><br>";
 echo getPageContent(getPageName());
-getPosts();
 ?>
 </div>
 <?php include('includes/footer.php');?>
