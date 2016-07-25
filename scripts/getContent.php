@@ -44,12 +44,14 @@ global $ThemeDir;
     $query = parse_url($url, PHP_URL_QUERY);
     if (strpos($query,'post=') !== false) {
 	$type = "post"; 
-	if(findPostPage($pagename)){
+	if(findPostPage($name)){
 		$pagename = findPostPage($name);
 		$pagename = substr($pagename,0,strrpos($pagename,"."));
 		$postdate = substr($pagename,0,10);
-	}
 	} else {
+		$pagename = $name;
+	}
+} else {
 	$type = "page";
 	$pagename = $name;
 	}	
