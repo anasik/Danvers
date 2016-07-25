@@ -41,8 +41,10 @@ function getPageContent($pagename){
     $query = parse_url($url, PHP_URL_QUERY);
     if (strpos($query,'post=') !== false) {
 	$type = "post"; 
-	$pagename = findPostPage($pagename);
-	$pagename = substr($pagename,0,strrpos($pagename,"."));
+	if(findPostPage($pagename)){
+		$pagename = findPostPage($pagename);
+		$pagename = substr($pagename,0,strrpos($pagename,"."));
+	}
 	} else {
 	$type = "page";
 	}	
@@ -155,7 +157,7 @@ function createPost($i,$fname,$markup) {
 	global $posts;
 	$meta = breakItDown($fname);
 	array_push($posts,new Post($meta[0],$meta[1],$markup));
-	$layout = file_get_contents('includes/postmarkup.html');
+	$layout = file_get_contents('includes/blog.html');
 	$layout = str_replace("@_#_posttitle_#_@",$posts[$i]->ptitle,$layout);
 	$layout = str_replace("@_#_postdate_#_@",$posts[$i]->date,$layout);
 	$layout = str_replace("@_#_postcontent_#_@",$posts[$i]->contents,$layout);
