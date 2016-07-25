@@ -115,6 +115,7 @@ function getPosts(){
 			array_push($list,$filen);
 		}
 	}
+	natsort($list);$list = array_reverse($list);
 	foreach($list as $i => $post){
 		$address = ("content/posts/{$post}");
 		switch(checkMarkupType($post)){

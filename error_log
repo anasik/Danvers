@@ -308,3 +308,4 @@ Stack trace:
 [25-Jul-2016 08:23:59 America/Chicago] PHP Warning:  file_get_contents(themes/themes/bootstrap/blog.html): failed to open stream: No such file or directory in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 162
 [25-Jul-2016 08:43:13 America/Chicago] PHP Warning:  file_get_contents(/page.html): failed to open stream: No such file or directory in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 84
 [25-Jul-2016 08:47:54 America/Chicago] PHP Warning:  file_get_contents(/post.html): failed to open stream: No such file or directory in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 86
+[25-Jul-2016 09:30:54 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 119
