@@ -165,7 +165,6 @@ function createPost($i,$fname,$markup) {
 }
 class Content {
 }
-
 class Post extends Content {
 	public $date;
 	public $ptitle;
