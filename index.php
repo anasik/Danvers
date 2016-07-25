@@ -1,7 +1,6 @@
 <?php 
 include('scripts/getContent.php');
-include('includes/variables.php');
-include('scripts/theming.php')?>
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +13,6 @@ include('scripts/theming.php')?>
 <?php include('includes/header.php');?>
 <?php include('includes/sidebar.php');?>
 <?php
-echo "<h3>".getPageName()."</h3><br>";
 echo getPageContent(getPageName());
 ?>
 </div>

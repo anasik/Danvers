@@ -1,4 +1,6 @@
 <?php
+include('includes/variables.php');
+include('scripts/theming.php');
 include("scripts/assets/parsedown.php");
 include("scripts/assets/DataBag.php");
 include("scripts/assets/txparser.php");
@@ -35,18 +37,21 @@ function getPageName() {
     }
 
 }
-function getPageContent($pagename){
+function getPageContent($name){
 
+global $ThemeDir;
     $url = GetPagesURL();
     $query = parse_url($url, PHP_URL_QUERY);
     if (strpos($query,'post=') !== false) {
 	$type = "post"; 
 	if(findPostPage($pagename)){
-		$pagename = findPostPage($pagename);
+		$pagename = findPostPage($name);
 		$pagename = substr($pagename,0,strrpos($pagename,"."));
+		$postdate = substr($pagename,0,10);
 	}
 	} else {
 	$type = "page";
+	$pagename = $name;
 	}	
     $address = "content/{$type}s/{$pagename}.html";
     $upaddress = "content/{$type}s/{$pagename}.HTML";
@@ -74,9 +79,17 @@ function getPageContent($pagename){
 			$Parsedown = new Parsedown();
 			$markup = $Parsedown->text(file_get_contents($addre2m));
 }  else {
-	return "Error 404:<br>The Page: {$pagename}, was not found.<br>";}
-	if($type=="page"){ $markup = str_replace("@_#_blog_#_@",getPosts(),$markup);}
-        return '<div id="board">'.$markup.'</div><br>';
+	return "Error 404:<br>The Page: {$name}, was not found.<br>";}
+	if($type=="page"){ 
+	$markup = str_replace("@_#_blog_#_@",getPosts(),$markup);
+	$template = file_get_contents("{$ThemeDir}/page.html");
+	} else {
+	$template = file_get_contents("{$ThemeDir}/post.html");
+	}
+	$template = str_replace("@_#_pagename_#_@",$name,$template);
+	$template = str_replace("@_#_postdate_#_@",$postdate,$template);
+	$template = str_replace("@_#_pagecontent_#_@",$markup,$template);
+        return $template;
 };
 function findPostPage($title){
       	$dirlist =  scandir('content/posts');
@@ -154,13 +167,14 @@ function breakItDown($file){
 	return array($date,$title);
 }
 function createPost($i,$fname,$markup) {
-	global $posts;
+	global $posts;global $ThemeDir;global $homeURL;
 	$meta = breakItDown($fname);
 	array_push($posts,new Post($meta[0],$meta[1],$markup));
-	$layout = file_get_contents('includes/blog.html');
+	$layout = file_get_contents("{$ThemeDir}/blog.html");
 	$layout = str_replace("@_#_posttitle_#_@",$posts[$i]->ptitle,$layout);
 	$layout = str_replace("@_#_postdate_#_@",$posts[$i]->date,$layout);
 	$layout = str_replace("@_#_postcontent_#_@",$posts[$i]->contents,$layout);
+	$layout = str_replace("@_#_permalink_#_@","{$homeURL}?post={$posts[$i]->ptitle}",$layout);
 	return $layout;
 }
 class Content {
