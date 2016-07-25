@@ -90,6 +90,7 @@ global $ThemeDir;
 	}
 	$template = str_replace("@_#_pagename_#_@",$name,$template);
 	$template = str_replace("@_#_postdate_#_@",$postdate,$template);
+	$template = str_replace("@_#_comments_#_@",getComments($name),$template);
 	$template = str_replace("@_#_pagecontent_#_@",$markup,$template);
         return $template;
 };
@@ -180,6 +181,35 @@ function createPost($i,$fname,$markup) {
 	$layout = str_replace("@_#_permalink_#_@","{$homeURL}?post={$posts[$i]->ptitle}",$layout);
 	return $layout;
 }
+function getComments($post){
+	$post = findPostPage($post);
+	$ext = "{$post}.json";
+	$dir = scandir("content/comments/approved");
+	natsort($dir);
+	$dir = array_reverse($dir);
+	global $comments;
+	$comments = array();
+	global $ThemeDir;
+	foreach($dir as $file){
+		if(substr($file,20, strlen($file)-19)==$ext){
+			$json = file_get_contents("content/comments/approved/{$file}");
+			$comment = json_decode($json);
+			$d=substr($file,0,20);$n=$comment->{'name'};$e=$comment->{"email"};
+			$t=$comment->{'title'};$c=$comment->{"content"};
+			array_push($comments,new Comment($d,$n,$e,$t,$c));
+		}
+	}	
+	foreach($comments as $comment){
+		$template = file_get_contents("{$ThemeDir}/comment.html");
+		$template = str_replace("@_#_date_#_@",$comment->stamp,$template);
+		$template = str_replace("@_#_name_#_@",$comment->ctrname,$template);
+		$template = str_replace("@_#_email_#_@",$comment->email,$template);
+		$template = str_replace("@_#_title_#_@",$comment->ctitle,$template);
+		$template = str_replace("@_#_content_#_@",$comment->contents,$template);
+		$markup .= $template;
+	}
+	return $markup;
+}
 class Content {
 }
 class Post extends Content {
@@ -202,6 +232,19 @@ class Page extends Content {
 		$this->ptitle = $t;
 	}
 }
-class Comments extends Content {}
+class Comment extends Content {
+	public $stamp;
+	public $ctrname;
+	public $email;
+	public $ctitle;
+	public $contents;
+	public function __construct($d,$n,$e,$t,$c){
+		$this->stamp=$d;
+		$this->ctrname=$n;
+		$this->email=$e;
+		$this->ctitle=$t;
+		$this->contents=$c;
+	}
+}
 ?>
 
