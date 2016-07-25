@@ -41,15 +41,24 @@ function getPageContent($pagename){
     $query = parse_url($url, PHP_URL_QUERY);
     if (strpos($query,'post=') !== false) {
 	$type = "post"; 
+	$pagename = findPostPage($pagename);
+	$pagename = substr($pagename,0,strrpos($pagename,"."));
 	} else {
 	$type = "page";
 	}	
-    $address = strtolower("content/{$type}s/{$pagename}.html");
-    $addrest = strtolower("content/{$type}s/{$pagename}.textile");
-    $addresm = strtolower("content/{$type}s/{$pagename}.md");
-    $addre2m = strtolower("content/{$type}s/{$pagename}.markdown");
-    if(file_exists($address)){
-	$markup = file_get_contents($address);
+    $address = "content/{$type}s/{$pagename}.html";
+    $upaddress = "content/{$type}s/{$pagename}.HTML";
+    $addrest = "content/{$type}s/{$pagename}.textile";
+    $upaddrest = "content/{$type}s/{$pagename}.TEXTILE";
+    $addresm = "content/{$type}s/{$pagename}.md";
+    $upaddresm = "content/{$type}s/{$pagename}.MD";
+    $addre2m = "content/{$type}s/{$pagename}.markdown";
+    $upaddre2m = "content/{$type}s/{$pagename}.MARKDOWN";
+    if(file_exists($address) or file_exists($upaddress)){
+	if(file_exists($address)){
+		$markup = file_get_contents($address);}
+	else {
+		$markup = file_get_contents($upaddress);}
     }
   /*      elseif((file_exists($addrest) and (file_exists($addresm) or file_exists($addre2m))) or (!file_exists($address) and !file_exists($addrest) and !file_exists($addresm) and !file_exists($addre2m)) ) {
         return "Error 404:<br>The Page: {$pagename}, was not found.<br>";
@@ -64,9 +73,23 @@ function getPageContent($pagename){
 			$markup = $Parsedown->text(file_get_contents($addre2m));
 }  else {
 	return "Error 404:<br>The Page: {$pagename}, was not found.<br>";}
-	$markup = str_replace("@_#_blog_#_@",getPosts(),$markup);
+	if($type=="page"){ $markup = str_replace("@_#_blog_#_@",getPosts(),$markup);}
         return '<div id="board">'.$markup.'</div><br>';
 };
+function findPostPage($title){
+
+        $dirlist =  scandir('content/posts');
+        $list = array();
+        foreach($dirlist as $filen){
+                if(checkMarkupType($filen)){
+                        array_push($list,$filen);
+                }
+        }
+        foreach($list as $i => $post){
+                if(breakItDown($post)[1] ==$title ){return $post;}
+                else {return false;}
+        }
+}
 function getPosts(){
 	$dirlist =  scandir('content/posts');
 	$list = array();
@@ -134,7 +157,11 @@ function createPost($i,$fname,$markup) {
 	global $posts;
 	$meta = breakItDown($fname);
 	array_push($posts,new Post($meta[0],$meta[1],$markup));
-	return "<h2>{$posts[$i]->ptitle}</h2><br><br>".$posts[$i]->contents."<br><br>";
+	$layout = file_get_contents('includes/postmarkup.html');
+	$layout = str_replace("@_#_posttitle_#_@",$posts[$i]->ptitle,$layout);
+	$layout = str_replace("@_#_postdate_#_@",$posts[$i]->date,$layout);
+	$layout = str_replace("@_#_postcontent_#_@",$posts[$i]->contents,$layout);
+	return $layout;
 }
 class Content {
 }
@@ -159,5 +186,6 @@ class Page extends Content {
 		$this->ptitle = $t;
 	}
 }
+class Comments extends Content {}
 ?>
 
