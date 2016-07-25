@@ -77,8 +77,7 @@ function getPageContent($pagename){
         return '<div id="board">'.$markup.'</div><br>';
 };
 function findPostPage($title){
-
-        $dirlist =  scandir('content/posts');
+      	$dirlist =  scandir('content/posts');
         $list = array();
         foreach($dirlist as $filen){
                 if(checkMarkupType($filen)){
@@ -86,8 +85,7 @@ function findPostPage($title){
                 }
         }
         foreach($list as $i => $post){
-                if(breakItDown($post)[1] ==$title ){return $post;}
-                else {return false;}
+                if(breakItDown($post)[1] == $title ){return $post;}
         }
 }
 function getPosts(){

@@ -289,3 +289,4 @@ Stack trace:
 [24-Jul-2016 11:14:03 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 67
 [24-Jul-2016 11:14:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 67
 [24-Jul-2016 11:14:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 67
+[25-Jul-2016 06:06:18 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 191
