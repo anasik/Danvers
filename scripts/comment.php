@@ -2,6 +2,7 @@
 chdir('..');
 include("getContent.php");
 function postComment(){
+if($_POST['ctrname'] and $_POST['email'] and $_POST['title'] and htmlspecialchars($_POST['ctrname'])){
 $json = '{ 
 "name": "'.$_POST['ctrname'].'",  
 "email": "'.$_POST['email'].'", 
@@ -12,9 +13,16 @@ $name = $_SERVER['HTTP_REFERER'];
 $name = substr($name , strpos($name,"?post=")+6);
 $name = str_replace("%20"," ",$name);
 $name = findPostPage($name);
-$name= date("Y-m-d H:i:s").".".$name;echo $name; 
+$name= date("Y-m-d H:i:s").".".$name;
 $myfile = fopen("content/comments/{$name}.json", "w");
 fwrite($myfile,$json);
+echo "Comment posted, awaiting approval...";
+} else {
+echo "Invalid or incomplete data. Let me escort you back...";
+	}
+sleep(3);
+echo "<script>window.location.replace('{$_SERVER['HTTP_REFERER']}');</script>";
+die();
 }
 postComment();
 ?>

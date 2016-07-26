@@ -12,3 +12,4 @@
 [26-Jul-2016 02:07:53 America/Chicago] PHP Warning:  include(): Failed opening 'scripts/assets/Tag.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 7
 [26-Jul-2016 02:15:22 America/Chicago] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/comment.php on line 11
 [26-Jul-2016 02:45:03 America/Chicago] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE), expecting ',' or ';' in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/comment.php on line 13
+[26-Jul-2016 04:48:40 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/comment.php on line 22
