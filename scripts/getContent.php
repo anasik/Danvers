@@ -91,6 +91,7 @@ global $ThemeDir;
 	$template = str_replace("@_#_pagename_#_@",$name,$template);
 	$template = str_replace("@_#_postdate_#_@",$postdate,$template);
 	$template = str_replace("@_#_comments_#_@",getComments($name),$template);
+	$template = str_replace("@_#_commentform_#_@",'<form action="scripts/comment.php" method="post" id="commentform">'.file_get_contents($ThemeDir."/commentform.html")."<input type='hidden' disabled value='{$name}' name='here'/></form>",$template);
 	$template = str_replace("@_#_pagecontent_#_@",$markup,$template);
         return $template;
 };
