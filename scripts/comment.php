@@ -18,7 +18,8 @@ $myfile = fopen("content/comments/{$name}.json", "w");
 fwrite($myfile,$json);
 echo "Comment posted, awaiting approval...";
 } else {
-echo "Invalid or incomplete data. Let me escort you back...";
+//echo "Invalid or incomplete data. Let me escort you back...";
+return false;
 	}
 sleep(3);
 echo "<script>window.location.replace('{$_SERVER['HTTP_REFERER']}');</script>";

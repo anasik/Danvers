@@ -91,9 +91,22 @@ global $ThemeDir;
 	$template = str_replace("@_#_pagename_#_@",$name,$template);
 	$template = str_replace("@_#_postdate_#_@",$postdate,$template);
 	$template = str_replace("@_#_comments_#_@",getComments($name),$template);
-	$template = str_replace("@_#_commentform_#_@",'<form action="scripts/comment.php" method="post" id="commentform">'.file_get_contents($ThemeDir."/commentform.html")."<input type='hidden' disabled value='{$name}' name='here'/></form>",$template);
+	$form = '<form action="scripts/comment.php" method="post" id="commentform">'.file_get_contents($ThemeDir."/commentform.html")."<input type='hidden' disabled value='{$name}' name='here'/></form>";
 	$template = str_replace("@_#_pagecontent_#_@",$markup,$template);
-        return $template;
+	if(substr_count($form,"@_#_ajaxcomment_#_@")){
+	$ajaxscript = '<script>
+//AJAX post comment.
+$(document).ready(function(){
+    $("button#ajxcomment").click(function(){
+   $.ajax({url: "scripts/comment.php", type: "POST", data: {ctrname: $("input#ctrname").val(),
+          email: $("input#email").val(), title: $("input#title").val(), comment: $("textarea#comment").val()}, success: function(result){
+       if(result == false){alert("Invalid or incomplete input."); } else{$("#commentform input:text").val("");$("#commentform #comment").val("");}
+    }});    
+    });
+});
+</script>';$form .= $ajaxscript;$form = str_replace("@_#_ajaxcomment_#_@","",$form);$form .= "<button id='ajxcomment'>Comment</button>";
+	$template = str_replace("@_#_commentform_#_@",$form,$template);
+        return $template;}
 };
 function findPostPage($title){
       	$dirlist =  scandir('content/posts');

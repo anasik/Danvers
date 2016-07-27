@@ -335,3 +335,5 @@ Stack trace:
 #0 /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/comment.php(26): postComment()
 #1 {main}
   thrown in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/comment.php on line 23
+[27-Jul-2016 03:52:11 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 264
+[27-Jul-2016 03:57:14 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 265
