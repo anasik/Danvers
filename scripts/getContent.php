@@ -48,6 +48,7 @@ global $ThemeDir;
 		$pagename = findPostPage($name);
 		$pagename = substr($pagename,0,strrpos($pagename,"."));
 		$postdate = substr($pagename,0,10);
+		$xml = metaData(findPostPage($name))[0];
 	} else {
 		$pagename = $name;
 	}
@@ -87,9 +88,14 @@ global $ThemeDir;
 	$template = file_get_contents("{$ThemeDir}/page.html");
 	} else {
 	$template = file_get_contents("{$ThemeDir}/post.html");
+	$markup = str_replace("@_#_metadata_#_@","",$markup);
+	$markup = str_replace("#_@_metadata_@_#","",$markup);
+	$markup = str_replace(metaData(findPostPage($name))[1],"",$markup);
 	}
 	$template = str_replace("@_#_pagename_#_@",$name,$template);
 	$template = str_replace("@_#_postdate_#_@",$postdate,$template);
+	$template = str_replace("@_#_postcategs_#_@",$xml->categories,$template);
+	$template = str_replace("@_#_postauthor_#_@",$xml->author,$template);
 	$template = str_replace("@_#_comments_#_@",getComments($name),$template);
 	$form = '<form action="scripts/comment.php" method="post" id="commentform">'.file_get_contents($ThemeDir."/commentform.html")."<input type='hidden' disabled value='{$name}' name='here'/></form>";
 	$template = str_replace("@_#_pagecontent_#_@",$markup,$template);
@@ -117,7 +123,7 @@ function findPostPage($title){
                 }
         }
         foreach($list as $i => $post){
-                if(breakItDown($post)[1] == $title ){return $post;}
+                if(breakItDown($post)[2] == $title ){return $post;}
         }
 }
 function getPosts(){
@@ -179,20 +185,62 @@ break;
 }
 };
 function breakItDown($file){
-		$name = pathinfo($file)["filename"];
-		$date = substr($name,0,10);
+	$xml=metaData($file)[0];
+	$name = pathinfo($file)["filename"];
+	$date = substr($name,0,10);
+	if($xml->title){
+		$title = $xml->title;
+		$ftitle = substr($name, 11);
+	}	
+	else {
 		$title = substr($name, 11);
-	return array($date,$title);
+		$ftitle = substr($name, 11);
+	}
+	if($xml->author){
+		$author= $xml->author;
+	}	
+	if($xml->categories){
+		$categories=$xml->categories->children();
+		$categs = "";$i=0;	
+	foreach($categories as $category){
+		if($i == 0){
+			$categs .= $category;$i++;
+		}
+		else {
+			$categs .= ", {$category}";$i++;
+		}
+	}
+	}
+	return array($date,$title,$ftitle,$author,$categs);
+}
+function metaData($file){
+	$contents = file_get_contents("content/posts/{$file}");
+        if(substr_count($contents,"@_#_metadata_#_@")){
+                $meta=substr($contents,strpos($contents,"@_#_metadata_#_@")+16,strpos($contents,"#_@_metadata_@_#")-16);
+		$xml=simplexml_load_string("<meta>".$meta."</meta>");
+		return array($xml,$meta);	
+        }
 }
 function createPost($i,$fname,$markup) {
 	global $posts;global $ThemeDir;global $homeURL;
 	$meta = breakItDown($fname);
 	array_push($posts,new Post($meta[0],$meta[1],$markup));
+	if($meta[3]){
+		$posts[$i]->addAuthor($meta[3]);
+	}
+	if($meta[4]){
+		$posts[$i]->addCateg($meta[4]);
+	}
 	$layout = file_get_contents("{$ThemeDir}/blog.html");
 	$layout = str_replace("@_#_posttitle_#_@",$posts[$i]->ptitle,$layout);
 	$layout = str_replace("@_#_postdate_#_@",$posts[$i]->date,$layout);
 	$layout = str_replace("@_#_postcontent_#_@",$posts[$i]->contents,$layout);
-	$layout = str_replace("@_#_permalink_#_@","{$homeURL}?post={$posts[$i]->ptitle}",$layout);
+	$layout = str_replace("@_#_postcategs_#_@",$posts[$i]->categories,$layout);
+	$layout = str_replace("@_#_postauthor_#_@",$posts[$i]->author,$layout);
+	$layout = str_replace("@_#_permalink_#_@","{$homeURL}?post={$meta[2]}",$layout);
+	$layout = str_replace("@_#_metadata_#_@","",$layout);
+	$layout = str_replace("#_@_metadata_@_#","",$layout);
+	$layout = str_replace(metaData($fname)[1],"",$layout);
 	return $layout;
 }
 function getComments($post){
@@ -230,12 +278,18 @@ class Post extends Content {
 	public $date;
 	public $ptitle;
 	public $contents;
-	public $category;
+	public $categories;
+	public $author;
 	public function __construct($d,$t,$c){
 		$this->date = $d;
 		$this->ptitle = $t;
 		$this->contents = $c;
-
+	}
+	public function addAuthor($a){
+		$this->author = $a;
+	}
+	public function addCateg($c){
+		$this->categories = $c;
 	}
 }
 class Page extends Content {

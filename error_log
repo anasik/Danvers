@@ -337,3 +337,45 @@ Stack trace:
   thrown in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/comment.php on line 23
 [27-Jul-2016 03:52:11 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 264
 [27-Jul-2016 03:57:14 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 265
+[29-Jul-2016 06:15:39 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 3: parser error : Extra content at the end of the document in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 200
+[29-Jul-2016 06:15:39 America/Chicago] PHP Warning:  simplexml_load_string(): &lt;categories&gt; in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 200
+[29-Jul-2016 06:15:39 America/Chicago] PHP Warning:  simplexml_load_string(): ^ in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 200
+[29-Jul-2016 06:15:39 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 3: parser error : Extra content at the end of the document in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 200
+[29-Jul-2016 06:15:39 America/Chicago] PHP Warning:  simplexml_load_string(): &lt;categories&gt; in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 200
+[29-Jul-2016 06:15:39 America/Chicago] PHP Warning:  simplexml_load_string(): ^ in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 200
+[29-Jul-2016 06:15:39 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 3: parser error : Extra content at the end of the document in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 200
+[29-Jul-2016 06:15:39 America/Chicago] PHP Warning:  simplexml_load_string(): &lt;categories&gt; in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 200
+[29-Jul-2016 06:15:39 America/Chicago] PHP Warning:  simplexml_load_string(): ^ in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 200
+[29-Jul-2016 06:16:27 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 3: parser error : Extra content at the end of the document in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:16:27 America/Chicago] PHP Warning:  simplexml_load_string(): &lt;categories&gt; in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:16:27 America/Chicago] PHP Warning:  simplexml_load_string(): ^ in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:16:27 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 3: parser error : Extra content at the end of the document in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:16:27 America/Chicago] PHP Warning:  simplexml_load_string(): &lt;categories&gt; in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:16:27 America/Chicago] PHP Warning:  simplexml_load_string(): ^ in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:16:27 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 3: parser error : Extra content at the end of the document in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:16:27 America/Chicago] PHP Warning:  simplexml_load_string(): &lt;categories&gt; in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:16:27 America/Chicago] PHP Warning:  simplexml_load_string(): ^ in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:18:50 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 3: parser error : Extra content at the end of the document in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:18:50 America/Chicago] PHP Warning:  simplexml_load_string(): &lt;categories&gt; in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:18:50 America/Chicago] PHP Warning:  simplexml_load_string(): ^ in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:18:50 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 3: parser error : Extra content at the end of the document in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:18:50 America/Chicago] PHP Warning:  simplexml_load_string(): &lt;categories&gt; in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:18:50 America/Chicago] PHP Warning:  simplexml_load_string(): ^ in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:18:50 America/Chicago] PHP Warning:  simplexml_load_string(): Entity: line 3: parser error : Extra content at the end of the document in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:18:50 America/Chicago] PHP Warning:  simplexml_load_string(): &lt;categories&gt; in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:18:50 America/Chicago] PHP Warning:  simplexml_load_string(): ^ in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 201
+[29-Jul-2016 06:43:31 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 264
+[29-Jul-2016 06:43:54 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 264
+[29-Jul-2016 08:10:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function metaDate() in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php:226
+Stack trace:
+#0 /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php(152): createPost(0, '2016-09-13.Seco...', 'asdfasd asdf as...')
+#1 /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php(86): getPosts()
+#2 /home4/harshitc/public_html/anasismail.com/others/Quicksites/index.php(17): getPageContent('blog')
+#3 {main}
+  thrown in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 226
+[29-Jul-2016 08:22:55 America/Chicago] PHP Warning:  file_get_contents(content/posts/First post_categ_shit): failed to open stream: No such file or directory in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 205
+[29-Jul-2016 08:23:28 America/Chicago] PHP Warning:  file_get_contents(content/posts/First post_categ_shit): failed to open stream: No such file or directory in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 205
+[29-Jul-2016 08:23:44 America/Chicago] PHP Warning:  file_get_contents(content/posts/2016-09-12.First post_categ_shit): failed to open stream: No such file or directory in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 205
+[29-Jul-2016 08:32:14 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 96
+[29-Jul-2016 09:00:14 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 205
+[29-Jul-2016 09:04:10 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home4/harshitc/public_html/anasismail.com/others/Quicksites/scripts/getContent.php on line 205
