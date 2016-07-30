@@ -74,13 +74,19 @@ global $ThemeDir;
         return "Error 404:<br>The Page: {$pagename}, was not found.<br>";
     }*/ elseif(file_exists($addrest) and !file_exists($addresm) and !file_exists($addre2m)){
 	 	$parser = new \Netcarver\Textile\Parser();
-		$markup = $parser->parse(file_get_contents($addrest));
-	} elseif((file_exists($addresm) and !file_exists($addre2m)) and !file_exists($addrest)){
-			$Parsedown = new Parsedown();
-			$markup = $Parsedown->text(file_get_contents($addresm));
+                $markup = file_get_contents($addrest);
+                $markup = str_replace("@_#_metadata_#_@".metaData(findPostPage($name))[1]."#_@_metadata_@_#","",$markup);
+                $markup = $parser->parse($markup);
+        } elseif((file_exists($addresm) and !file_exists($addre2m)) and !file_exists($addrest)){
+                        $Parsedown = new Parsedown();
+                        $markup = file_get_contents($addresm);
+                        $markup = str_replace("@_#_metadata_#_@".metaData(findPostPage($name))[1]."#_@_metadata_@_#","",$markup);
+                        $markup = $Parsedown->text($markup);
 } elseif((file_exists($addre2m) and !file_exists($addresm)) and !file_exists($addrest)){
-			$Parsedown = new Parsedown();
-			$markup = $Parsedown->text(file_get_contents($addre2m));
+                        $Parsedown = new Parsedown();
+                        $markup = file_get_contents($addre2m);
+                        $markup = str_replace("@_#_metadata_#_@".metaData(findPostPage($name))[1]."#_@_metadata_@_#","",$markup);
+                        $markup = $Parsedown->text($markup);
 }  else {
 	return "Error 404:<br>The Page: {$name}, was not found.<br>";}
 	if($type=="page"){ 
@@ -140,22 +146,26 @@ function getPosts(){
 	natsort($list);$list = array_reverse($list);
 	foreach($list as $i => $post){
 		$address = ("content/posts/{$post}");
-		switch(checkMarkupType($post)){
-			case "html":
-			$markup = file_get_contents($address);
-			break;
+                $markup = file_get_contents($address);
+                switch(checkMarkupType($post)){
+                        case "html":
+                        $markup = str_replace("@_#_metadata_#_@".metaData($post)[1]."#_@_metadata_@_#","",$markup);
+                        break;
 
-			case "md":
-			case "markdown":
-			$Parsedown = new Parsedown();
-			$markup = $Parsedown->text(file_get_contents($address));
-			break;
+                        case "md":
+                        case "markdown":
+                        $Parsedown = new Parsedown();
+                        $markup = str_replace("@_#_metadata_#_@".metaData($post)[1]."#_@_metadata_@_#","",$markup);
+                        $markup = $Parsedown->text($markup);
+                        break;
 
-			case "textile":
-			$parser = new \Netcarver\Textile\Parser();
-			$markup = $parser->parse(file_get_contents($address));
-			break;
-		}
+                        case "textile":
+                        $parser = new \Netcarver\Textile\Parser();
+                        $markup = str_replace("@_#_metadata_#_@".metaData($post)[1]."#_@_metadata_@_#","",$markup);
+                        $markup = $parser->parse($markup);
+                        break;
+                }
+
 			$return = $return.createPost($i,$post,$markup);
 	}
 	return $return;
@@ -180,22 +190,26 @@ function getArchive($type,$name){
 	natsort($list);$list = array_reverse($list);
 	foreach($list as $i => $post){
 		$address = ("content/posts/{$post}");
-		switch(checkMarkupType($post)){
-			case "html":
-			$markup = file_get_contents($address);
-			break;
+                $markup = file_get_contents($address);
+                switch(checkMarkupType($post)){
+                        case "html":
+                        $markup = str_replace("@_#_metadata_#_@".metaData($post)[1]."#_@_metadata_@_#","",$markup);
+                        break;
 
-			case "md":
-			case "markdown":
-			$Parsedown = new Parsedown();
-			$markup = $Parsedown->text(file_get_contents($address));
-			break;
+                        case "md":
+                        case "markdown":
+                        $Parsedown = new Parsedown();
+                        $markup = str_replace("@_#_metadata_#_@".metaData($post)[1]."#_@_metadata_@_#","",$markup);
+                        $markup = $Parsedown->text($markup);
+                        break;
 
-			case "textile":
-			$parser = new \Netcarver\Textile\Parser();
-			$markup = $parser->parse(file_get_contents($address));
-			break;
-		}
+                        case "textile":
+                        $parser = new \Netcarver\Textile\Parser();
+                        $markup = str_replace("@_#_metadata_#_@".metaData($post)[1]."#_@_metadata_@_#","",$markup);
+                        $markup = $parser->parse($markup);
+                        break;
+                }
+
 			$return = $return.createPost($i,$post,$markup);
 	}
 	return $return;
