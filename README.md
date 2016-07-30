@@ -27,6 +27,12 @@ Danvers/content
     ├── 2016-09-12.First post.html
     └── 2016-09-13.Second post.html
 ```
+#Features?
+* Blog-aware, complete with category and author archives, permalinks and single-post pages. You name it!
+* Textile and Markdown support.
+* JSON based comments system.
+* Grandma-Compatible.
+
 #Getting Started:
 1. Clone the repo or Download the files.
 2. Read the grandma-compatible documentation. (Coming soon!) 
