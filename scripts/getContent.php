@@ -90,10 +90,10 @@ global $ThemeDir;
 	$template = file_get_contents("{$ThemeDir}/post.html");
 	$markup = str_replace("@_#_metadata_#_@".metaData(findPostPage($name))[1]."#_@_metadata_@_#","",$markup);
 	}
-	if($xml->title){
+	/*if($xml->title){
 	$template = str_replace("@_#_pagename_#_@",$xml[1],$template);}
-	else {
-	$template = str_replace("@_#_pagename_#_@",$name,$template);}
+	else {*/
+	$template = str_replace("@_#_pagename_#_@",$xml[1],$template);//}
 	$template = str_replace("@_#_postdate_#_@",$postdate,$template);
 	$template = str_replace("@_#_postcategs_#_@",$xml[4],$template);
 	$template = str_replace("@_#_postauthor_#_@",$xml[3],$template);
