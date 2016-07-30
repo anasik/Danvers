@@ -12,10 +12,10 @@ An example of what a content folder of a Danvers site may look like:
 Danvers/content
 ├── comments
 │   └── approved
-│       ├── 2001-03-10 17:16:18.2015-25-99.pd.md.json
-│       ├── 2003-69-12 15:19:25.2015-25-99.pd.md.json
-│       ├── 2016-07-26 02:53:40.2016-09-12.First post_categ_shit.html.json
-│       └── 2016-07-26 02:54:03.2016-09-12.First post_categ_shit.html.json
+│       ├── 2001-03-10 17:16:18.2015-25-99.A weirdly dated post.md.json
+│       ├── 2003-69-12 15:19:25.2015-25-99.A weirdly dated post.md.json
+│       ├── 2016-07-26 02:53:40.2016-09-12.First post.html.json
+│       └── 2016-07-26 02:54:03.2016-09-12.First post.html.json
 ├── pages
 │   ├── about.html
 │   ├── blog.md
