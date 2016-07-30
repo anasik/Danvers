@@ -48,7 +48,7 @@ global $ThemeDir;
 		$pagename = findPostPage($name);
 		$pagename = substr($pagename,0,strrpos($pagename,"."));
 		$postdate = substr($pagename,0,10);
-		$xml = metaData(findPostPage($name))[0];
+		$xml = breakItDown(findPostPage($name));
 	} else {
 		$pagename = $name;
 	}
@@ -92,10 +92,13 @@ global $ThemeDir;
 	$markup = str_replace("#_@_metadata_@_#","",$markup);
 	$markup = str_replace(metaData(findPostPage($name))[1],"",$markup);
 	}
-	$template = str_replace("@_#_pagename_#_@",$name,$template);
+	if($xml->title){
+	$template = str_replace("@_#_pagename_#_@",$xml[1],$template);}
+	else {
+	$template = str_replace("@_#_pagename_#_@",$name,$template);}
 	$template = str_replace("@_#_postdate_#_@",$postdate,$template);
-	$template = str_replace("@_#_postcategs_#_@",$xml->categories,$template);
-	$template = str_replace("@_#_postauthor_#_@",$xml->author,$template);
+	$template = str_replace("@_#_postcategs_#_@",$xml[4],$template);
+	$template = str_replace("@_#_postauthor_#_@",$xml[3],$template);
 	$template = str_replace("@_#_comments_#_@",getComments($name),$template);
 	$form = '<form action="scripts/comment.php" method="post" id="commentform">'.file_get_contents($ThemeDir."/commentform.html")."<input type='hidden' disabled value='{$name}' name='here'/></form>";
 	$template = str_replace("@_#_pagecontent_#_@",$markup,$template);
@@ -159,6 +162,46 @@ function getPosts(){
 	}
 	return $return;
 }
+function getArchive($type,$name){
+	$dirlist =  scandir('content/posts');
+	$list = array();
+	global $posts;
+	$posts = array();
+	foreach($dirlist as $filen){
+		if($type=="a") {
+			if(breakItDown($filen)[5]==$name){
+			 array_push($list,$filen);
+			}
+		}
+		elseif($type=="c"){
+			if(substr_count(breakItDown($filen)[6],$name)){
+			array_push($list,$filen);
+			}
+		}
+	}
+	natsort($list);$list = array_reverse($list);
+	foreach($list as $i => $post){
+		$address = ("content/posts/{$post}");
+		switch(checkMarkupType($post)){
+			case "html":
+			$markup = file_get_contents($address);
+			break;
+
+			case "md":
+			case "markdown":
+			$Parsedown = new Parsedown();
+			$markup = $Parsedown->text(file_get_contents($address));
+			break;
+
+			case "textile":
+			$parser = new \Netcarver\Textile\Parser();
+			$markup = $parser->parse(file_get_contents($address));
+			break;
+		}
+			$return = $return.createPost($i,$post,$markup);
+	}
+	return $return;
+}
 function checkMarkupType($name){
 	$file_parts = pathinfo($name);
 
@@ -197,21 +240,26 @@ function breakItDown($file){
 		$ftitle = substr($name, 11);
 	}
 	if($xml->author){
+		global $homeURL;
 		$author= $xml->author;
+		$authxor="<a href='{$homeURL}archive.php?type=a&name={$author}'>{$author}</a>";
 	}	
 	if($xml->categories){
 		$categories=$xml->categories->children();
-		$categs = "";$i=0;	
+		$categs = "";$i=0; $categx;
 	foreach($categories as $category){
 		if($i == 0){
-			$categs .= $category;$i++;
+			$categs .= $category;
+			$categx .= "<a href='{$homeURL}archive.php?type=c&name={$category}'>{$category}</a>";
+			$i++;
 		}
 		else {
 			$categs .= ", {$category}";$i++;
+			$categx .= ", <a href='{$homeURL}archive.php?type=c&name={$category}'>{$category}</a>";
 		}
 	}
 	}
-	return array($date,$title,$ftitle,$author,$categs);
+	return array($date,$title,$ftitle,$authxor,$categx,$author,$categs);
 }
 function metaData($file){
 	$contents = file_get_contents("content/posts/{$file}");

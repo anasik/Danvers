@@ -13,7 +13,7 @@ include('scripts/getContent.php');
 <?php include('includes/header.php');?>
 <?php include('includes/sidebar.php');?>
 <?php
-echo getPageContent(getPageName());
+echo getArchive($_GET["type"],$_GET["name"]);
 ?>
 </div>
 <?php include('includes/footer.php');?>
