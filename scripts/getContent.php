@@ -88,9 +88,7 @@ global $ThemeDir;
 	$template = file_get_contents("{$ThemeDir}/page.html");
 	} else {
 	$template = file_get_contents("{$ThemeDir}/post.html");
-	$markup = str_replace("@_#_metadata_#_@","",$markup);
-	$markup = str_replace("#_@_metadata_@_#","",$markup);
-	$markup = str_replace(metaData(findPostPage($name))[1],"",$markup);
+	$markup = str_replace("@_#_metadata_#_@".metaData(findPostPage($name))[1]."#_@_metadata_@_#","",$markup);
 	}
 	if($xml->title){
 	$template = str_replace("@_#_pagename_#_@",$xml[1],$template);}
@@ -286,9 +284,7 @@ function createPost($i,$fname,$markup) {
 	$layout = str_replace("@_#_postcategs_#_@",$posts[$i]->categories,$layout);
 	$layout = str_replace("@_#_postauthor_#_@",$posts[$i]->author,$layout);
 	$layout = str_replace("@_#_permalink_#_@","{$homeURL}?post={$meta[2]}",$layout);
-	$layout = str_replace("@_#_metadata_#_@","",$layout);
-	$layout = str_replace("#_@_metadata_@_#","",$layout);
-	$layout = str_replace(metaData($fname)[1],"",$layout);
+	$layout = str_replace("@_#_metadata_#_@".metaData($fname)[1]."#_@_metadata_@_#","",$layout);
 	return $layout;
 }
 function getComments($post){
