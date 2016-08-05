@@ -35,7 +35,7 @@ Danvers/content
 
 #Getting Started:
 1. Clone the repo or Download the files.
-2. Read the grandma-compatible documentation. (Coming soon!) 
+2. Read the [grandma-compatible documentation](https://github.com/anasik/Danvers/wiki).
 3. Make your changes. Create your content.
 4. Deploy the files on the Web-Server. Deploying is merely a matter of copying the files. 
 5. Proudly present your Danvers site to the world!
